@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>Home | ytsruh.com</title>
+    <meta name="description" content="Personal Portfolio Homepage and CV for Chris Hurst & ytsruh.com" />
     <link rel="stylesheet" href="tailwind.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,12 +17,12 @@
   <body class="bg-body text-white font-poppins pb-12">
     <header class="py-6">
       <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-        <div class="text-lg font-bold">Jonathan.doe</div>
+        <div class="text-lg font-bold">ytsruh.com</div>
         <div class="hidden md:flex space-x-12 items-center">
           <a href="#" class="text-selected-text">Home</a>
-          <a href="#work">My work</a>
-          <a href="#clients">Clients</a>
-          <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire me</button></a>
+          <a href="#projects">Projects</a>
+          <a href="#work">Work History</a>
+          <a href="#contact"><button class="px-6 py-2 bg-theme font-bold">Contact me</button></a>
         </div>
         <div class="md:hidden">
           <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,25 +45,25 @@
             >
               <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
             </a>
+            <a href="#projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+            </a>
             <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
               <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
             </a>
-            <a href="#clients" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Clients</span>
-            </a>
-            <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
-              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+            <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
             </a>
           </div>
         </nav>
 
         <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
           <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
-            Building<br />
-            beautiful web experiences.
+            Digital Marketer </br>
+            & Javascript Developer
           </h1>
           <div class="w-full flex justify-center md:justify-start">
-            <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+            <a href="#projects" class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
               <div>
                 <svg
                   width="22"
@@ -81,21 +82,24 @@
                   />
                 </svg>
               </div>
-              <span>View my work.</span>
-            </button>
+              <span>View my Projects</span>
+            </a>
           </div>
         </div>
-        <img src="img/man.png" alt="Man" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1" />
+        <img
+          src="img/computer.jpg"
+          alt="Computer screen"
+          class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"
+        />
       </div>
     </div>
     <!-- END HERO SECTION-->
-    <!-- MY WORK SECTION -->
+    <!-- MY PROJECTS SECTION -->
     <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
       <section class="w-full">
-        <h2 id="work" class="secondary-title">My work</h2>
+        <h2 id="projects" class="secondary-title">Projects</h2>
         <p class="section-paragraph">
-          I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing
-          both frontend and backend.
+          I've worked on a range of high impact marketing projects in my career, in both agencies as well major international companies. JavaScript has been used for projects in both a professional & personal capacity.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
@@ -138,114 +142,96 @@
         </div>
       </section>
     </div>
-    <!-- END MY WORK SECTION -->
-    <!-- CLIENTS SECTION -->
+    <!-- END PROJECTS SECTION -->
+    <!-- WORK SECTION -->
     <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
       <section class="w-full">
-        <h2 id="clients" class="secondary-title">Clients</h2>
+        <h2 id="work" class="secondary-title">Work History</h2>
         <p class="section-paragraph">
-          I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing
-          both frontend and backend.
+         I have a range of experience working in digital agenices as well multinational companies in various disiplines of digital & marketing. 
         </p>
-
-        <!-- Clients -->
         <div class="space-y-12 my-16">
+          <!-- work -->
           <div
-            class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
+            class="w-full border border-nav p-16 lg:px-16 lg:py-20 lg:space-x-32 flex flex-row justify-center lg:justify-start flex-wrap lg:flex-nowrap "
           >
-            <!-- Client logo -->
-            <div class="mb-6 lg:mb-0">
-              <svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z"
-                  fill="white"
-                />
-              </svg>
+          <!-- logo -->
+            <div class="m-6 lg:mb-0 grid grid-cols-1  place-content-center md:basis-1/3">
+              <img src="img/lseg.svg" alt="London Stock Exchange Logo" width="100%">
             </div>
-
-            <!-- Client info -->
-            <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-              <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+          <!-- info -->
+            <div class="flex flex-wrap justify-center text-center lg:text-left lg:block md:basis-2/3">
+              <h3 class="text-white text-3xl font-semibold">London Stock Exchange Group plc</h3>
 
               <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                <div class="badge">UI/UX</div>
-                <div class="badge">Frontend development</div>
+                <div class="badge">Oct 21 - Current</div>
+                <div class="badge">Digital Enablement Manager</div>
               </div>
 
               <p class="text-secondary">
-                I’ve had the pleasure of working with multiple Fortune 500 companies, designing and
-                implementing both frontend and backend.
+                Acting as product owner for all marketing websites in the group. Working with multiple develeopment teams to support, maintain & enhanced Adobe platform & Drupal.
               </p>
             </div>
           </div>
-          <div
-            class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
-          >
-            <!-- Client logo -->
-            <div class="mb-6 lg:mb-0">
-              <svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
 
-            <!-- Client info -->
-            <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-              <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+          <!-- work -->
+          <div
+            class="w-full border border-nav p-16 lg:px-16 lg:py-20 lg:space-x-32 flex flex-row justify-center lg:justify-start flex-wrap lg:flex-nowrap "
+          >
+          <!-- logo -->
+            <div class="m-6 lg:mb-0 grid grid-cols-1  place-content-center md:basis-1/3">
+              <img src="img/refinitiv.jpeg" alt="London Stock Exchange Logo" width="100%">
+            </div>
+          <!-- info -->
+            <div class="flex flex-wrap justify-center text-center lg:text-left lg:block md:basis-2/3">
+              <h3 class="text-white text-3xl font-semibold">Refinitiv</h3>
 
               <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                <div class="badge">UI/UX</div>
-                <div class="badge">Frontend development</div>
+                <div class="badge">Jan 21 - Oct 21</div>
+                <div class="badge">Digital Localisation Manager</div>
               </div>
 
               <p class="text-secondary">
-                I’ve had the pleasure of working with multiple Fortune 500 companies, designing and
-                implementing both frontend and backend.
+                Responsible for management of 6 local langauge websites built using Adobe Experience Manager. Secondary responsibility for website perfromance channels such as SEO, Paid Search & Social.
               </p>
             </div>
           </div>
-          <div
-            class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
-          >
-            <!-- Client logo -->
-            <div class="mb-6 lg:mb-0">
-              <svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
 
-            <!-- Client info -->
-            <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-              <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+          <!-- work -->
+          <div
+            class="w-full border border-nav p-16 lg:px-16 lg:py-20 lg:space-x-32 flex flex-row justify-center lg:justify-start flex-wrap lg:flex-nowrap "
+          >
+          <!-- logo -->
+            <div class="m-6 lg:mb-0 grid grid-cols-1  place-content-center md:basis-1/3">
+              <img src="img/thomson-reuters.png" alt="London Stock Exchange Logo" width="100%">
+            </div>
+          <!-- info -->
+            <div class="flex flex-wrap justify-center text-center lg:text-left lg:block md:basis-2/3">
+              <h3 class="text-white text-3xl font-semibold">Thomson Reuters</h3>
 
               <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                <div class="badge">UI/UX</div>
-                <div class="badge">Frontend development</div>
+                <div class="badge">Dec 16 - Jan 19</div>
+                <div class="badge">Head of Digital - Middle East</div>
               </div>
 
               <p class="text-secondary">
-                I’ve had the pleasure of working with multiple Fortune 500 companies, designing and
-                implementing both frontend and backend.
+                Lead & revenue generating responsibility for the MENA region of Thomson Reuters using all available digtial channels. Digital analytics and reporting dashboard integrated into CRM and sales dashboards.
               </p>
             </div>
           </div>
+
         </div>
       </section>
     </div>
-    <!-- END CLIENTS SECTION -->
-    <!-- HIRE ME SECTION -->
+    <!-- END WORK SECTION -->
+    <!-- CONTACT ME SECTION -->
     <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
       <section class="w-full">
-        <h2 id="hire" class="secondary-title">Hire me</h2>
+        <h2 id="contact" class="secondary-title">Contact me</h2>
         <p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
 
         <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-          <div class="space-y-12">
+          <div class="space-y-6">
             <div>
               <label class="text-white block mb-6 text-xl font-bold">Name</label>
               <input class="w-full border border-input-border bg-input px-4 py-4" />
@@ -310,7 +296,7 @@
         </div>
       </section>
     </div>
-    <!-- END HIRE ME SECTION -->
+    <!-- END CONTACT ME SECTION -->
     <script src="main.js"></script>
   </body>
 </html>
