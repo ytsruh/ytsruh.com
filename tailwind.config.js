@@ -5,8 +5,7 @@ module.exports = {
     extend: {
       colors: {
         body: "#000000",
-        "selected-text": "#A3A3FF",
-        theme: "#3F3FFF",
+        theme: "#00c389",
         nav: "#404053",
         secondary: "#9191A4",
         badge: "#3F3F51",
@@ -14,7 +13,7 @@ module.exports = {
         input: "#2A2A35",
       },
       fontFamily: {
-        poppins: ["'Raleway'", "sans-serif"],
+        raleway: ["'Raleway'", "sans-serif"],
       },
     },
   },
