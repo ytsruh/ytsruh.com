@@ -1,15 +1,21 @@
 {
-  "name": "personal-portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
+  "name": "portfolio",
+  "version": "0.0.1",
   "scripts": {
-    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css --watch"
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.0.13"
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.5.0",
+    "@lukeed/uuid": "^2.0.0",
+    "cookie": "^0.4.1"
   }
 }
