@@ -1,6 +1,9 @@
 <script context="module">
-  // Since there's no dynamic data here, we can prerender
-  // it so that it gets served as a static asset in prod
+  import PageTitle from "$lib/PageTitle.svelte";
+  import Project from "../lib/Project.svelte";
+  export const prerender = true;
+  const introText =
+    "I've worked on a range of high impact marketing projects in my career, in both agencies as well major international companies. JavaScript has been used for projects in both a professional & personal capacity.";
 </script>
 
 <svelte:head>
@@ -10,15 +13,10 @@
 
 <div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
   <section class="w-full">
-    <h2 id="projects" class="secondary-title">Projects</h2>
-    <p class="section-paragraph">
-      I've worked on a range of high impact marketing projects in my career, in both agencies as well major
-      international companies. JavaScript has been used for projects in both a professional & personal
-      capacity.
-    </p>
+    <PageTitle title="Projects" intro={introText} />
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-      <img src="img/marriages.png" class="w-full bg-nav h-36 lg:h-72 object-cover" alt="project1" />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-24">
+      <Project img="img/marriages.png" alt="project1" />
       <img src="img/homeflix.png" class="w-full bg-nav h-36 lg:h-72 object-cover" alt="project2" />
       <img
         src="img/refinitiv.png"

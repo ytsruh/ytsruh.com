@@ -61,3 +61,16 @@ body {
 .nav-dot:hover span {
   opacity: 1;
 }
+
+.primary-title {
+  @apply text-5xl font-bold;
+}
+
+.primary-title::before {
+  content: "";
+  @apply block w-12 h-2 bg-theme rounded-full mb-1;
+}
+
+.intro-paragraph {
+  @apply text-secondary text-lg my-6 w-full max-w-3xl;
+}

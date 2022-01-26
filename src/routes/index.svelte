@@ -13,6 +13,7 @@
     <div class="flex flex-wrap md:flex-nowrap">
       <nav class=" lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
         <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
             <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
           </a>
@@ -57,7 +58,7 @@
       <img
         src="img/computer.jpg"
         alt="Computer screen"
-        class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"
+        class="w-3/4 mt-12 md:absolute md:mt-0 right-0 -z-1"
       />
     </div>
   </div>
@@ -195,6 +196,7 @@
           <!-- Socials -->
           <div class="flex mt-20 space-x-6">
             <!-- Mail -->
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -213,6 +215,7 @@
               </svg>
             </a>
             <!-- Twitter -->
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="#">
               <svg
                 class="w-8 h-8 lg:w-12 lg:h-12"
@@ -229,6 +232,7 @@
               </svg>
             </a>
             <!-- Github -->
+            <!-- svelte-ignore a11y-invalid-attribute -->
             <a href="#">
               <svg
                 width="42px"
