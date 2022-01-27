@@ -42,9 +42,16 @@
       <WorkItem
         title="Account Manager - Middle East"
         company="Latitude Digital Marketing"
-        time="Jun 17 - Jan 19"
+        time="Jun 14 - Dec 16"
         desc="Responsible for account management for a selection of key strategic accounts in the region across Travel, Ecommerce & Financial sectors. Advising clients on all Paid & Organic Digital channels to increase business & website performance"
         logo="img/latitude.png"
+      />
+      <WorkItem
+        title="Negotiator & Web Developer"
+        company="Abbeyfords Estate Agents"
+        time="Apr 08 - Jun 14"
+        desc="Responsible for marketing & selling of homes in the local area using online and direct channels. I was also responsible for the website updates & maintenance using a custom PHP CMS & codebase."
+        logo="img/abbeyfords.jpeg"
       />
     </div>
   </section>

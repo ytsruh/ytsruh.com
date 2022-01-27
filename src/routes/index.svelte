@@ -1,5 +1,7 @@
 <script context="module">
   export const prerender = true;
+  import Project from "../lib/Project.svelte";
+  import projects from "../lib/projects.json";
 </script>
 
 <svelte:head>
@@ -72,30 +74,10 @@
         international companies. JavaScript has been used for projects in both a professional & personal
         capacity.
       </p>
-
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        <img src="img/marriages.png" class="w-full bg-nav h-36 lg:h-72 object-cover" alt="project1" />
-        <img src="img/homeflix.png" class="w-full bg-nav h-36 lg:h-72 object-cover" alt="project2" />
-        <img
-          src="img/refinitiv.png"
-          class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
-          alt="project3"
-        />
-        <img
-          src="img/emirates.png"
-          class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
-          alt="project4"
-        />
-        <img
-          src="img/tag-manager.png"
-          class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
-          alt="project5"
-        />
-        <img
-          src="img/tr-mena.png"
-          class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
-          alt="project6"
-        />
+        {#each projects as project}
+          <Project data={project} />
+        {/each}
       </div>
     </section>
   </div>
