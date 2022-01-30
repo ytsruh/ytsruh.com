@@ -1,7 +1,7 @@
 <script context="module">
   import PageTitle from "$lib/PageTitle.svelte";
   import ProjectLink from "$lib/ProjectLink.svelte";
-  import projects from "../lib/projects.json";
+  import projects from "../../lib/projects.json";
   export const prerender = true;
   const introText =
     "I've worked on a range of high impact marketing projects in my career, in both agencies as well major international companies. JavaScript has been used for projects in both a professional & personal capacity.";

@@ -19,7 +19,7 @@
   <div class="relative top-40 mx-auto shadow-lg rounded-md bg-body max-w-md">
     <!-- Modal header -->
     <div class="flex justify-between items-center bg-theme text-white text-xl rounded-t-md p-5">
-      <h2>{data.name}</h2>
+      <h3>{data.name}</h3>
       <button on:click={toggle}>x</button>
     </div>
 
