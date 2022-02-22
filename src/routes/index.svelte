@@ -178,8 +178,7 @@
           <!-- Socials -->
           <div class="flex mt-20 space-x-6">
             <!-- Mail -->
-            <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="#">
+            <a href="mailto:chris@ytsruh.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -197,8 +196,7 @@
               </svg>
             </a>
             <!-- Twitter -->
-            <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="#">
+            <a href="https://www.twitter.com/the_chrishurst" target="_blank">
               <svg
                 class="w-8 h-8 lg:w-12 lg:h-12"
                 width="42"
@@ -214,8 +212,7 @@
               </svg>
             </a>
             <!-- Github -->
-            <!-- svelte-ignore a11y-invalid-attribute -->
-            <a href="#">
+            <a href="https://github.com/ytsruh" target="_blank">
               <svg
                 width="42px"
                 height="42px"

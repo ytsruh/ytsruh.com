@@ -29,13 +29,16 @@
   }
 </script>
 
-<Header />
 <main>
-  <body class="bg-body text-white font-raleway">
+  <Header />
+  <body class="bg-body text-white font-raleway main-height">
     <slot />
   </body>
+  <Footer />
 </main>
-<Footer />
 
 <style>
+  .main-height {
+    min-height: 75vh;
+  }
 </style>

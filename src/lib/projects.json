@@ -60,5 +60,14 @@
     "description": "Responsible for the build and deployment of a local version of the main Thomson Reuters site in the MENA region. The project involved a migration from an old Wordpress site, migration & build using Adobe and the decomissioning of the old WordPress website.",
     "technologies": ["Adobe Experience Manager", "Adobe Launch", "Adobe Target"],
     "link": "https://mena.thomsonreuters.com"
+  },
+  {
+    "name": "Svelte Pokedex",
+    "id": 7,
+    "type": "development",
+    "img": "img/pokedex.png",
+    "description": "A demo app using Svelte & SvelteKit to replicate a Pokdex using the Pokemon API. The app uses the basic functionality of Svelte including; routing, params, stores & reactivity. The app includes a search bar to filter the original 151 Pokemon. TailwindCSS is used to style the app.",
+    "technologies": ["Svelte/Kit", "TailwindCSS", "Pokemon API"],
+    "link": "/apps/pokedex"
   }
 ]

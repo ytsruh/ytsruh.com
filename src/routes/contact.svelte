@@ -9,17 +9,17 @@
   <meta name="description" content="ytsruh.com Contact Page" />
 </svelte:head>
 
-<div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+<div class="container flex mt-36 mx-auto px-8 md:px-14 lg:px-24 w-full">
   <section class="w-full">
     <h2 id="contact" class="secondary-title">Contact me</h2>
     <p class="section-paragraph">Feel free to to contact me through any of the below methods.</p>
 
-    <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-12">
-      <div class="">
+    <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32">
+      <div>
         <!-- Socials -->
         <div class="flex mt-20 space-x-6">
           <!-- Mail -->
-          <a href="#">
+          <a href="mailto:chris@ytsruh.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -37,7 +37,7 @@
             </svg>
           </a>
           <!-- Twitter -->
-          <a href="#">
+          <a href="https://www.twitter.com/the_chrishurst" target="_blank">
             <svg
               class="w-8 h-8 lg:w-12 lg:h-12"
               width="42"
@@ -53,7 +53,7 @@
             </svg>
           </a>
           <!-- Github -->
-          <a href="#">
+          <a href="https://github.com/ytsruh" target="_blank">
             <svg
               width="42px"
               height="42px"
