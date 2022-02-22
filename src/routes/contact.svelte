@@ -10,11 +10,11 @@
 </svelte:head>
 
 <div class="container flex mt-36 mx-auto px-8 md:px-14 lg:px-24 w-full">
-  <section class="w-full min-h-5/6">
+  <section class="w-full">
     <h2 id="contact" class="secondary-title">Contact me</h2>
     <p class="section-paragraph">Feel free to to contact me through any of the below methods.</p>
 
-    <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 my-12">
+    <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32">
       <div>
         <!-- Socials -->
         <div class="flex mt-20 space-x-6">
