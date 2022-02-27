@@ -69,5 +69,14 @@
     "description": "A demo app using Svelte & SvelteKit to replicate a Pokdex using the Pokemon API. The app uses the basic functionality of Svelte including; routing, params, stores & reactivity. The app includes a search bar to filter the original 151 Pokemon. TailwindCSS is used to style the app.",
     "technologies": ["Svelte/Kit", "TailwindCSS", "Pokemon API"],
     "link": "/apps/pokedex"
+  },
+  {
+    "name": "CSS Dashboard Grid",
+    "id": 8,
+    "type": "development",
+    "img": "img/dashboard-grid.png",
+    "description": "A small demo of using CSS Grid layout with flex items to create a beautiful dashboard style layout with a multi-column layout. This project also showcases some CSS effects such as on hover state &size transformation. Finally each panel is has a toggleable background on click.",
+    "technologies": ["Svelte/Kit", "TailwindCSS", "CSS Grid"],
+    "link": "/apps/dashboard-grid"
   }
 ]
