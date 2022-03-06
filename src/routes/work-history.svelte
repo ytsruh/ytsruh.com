@@ -14,7 +14,7 @@
   <meta name="description" content={introText} />
 </svelte:head>
 
-<div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+<div class="container mt-20 lg:mt-36 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
   <section class="w-full">
     <PageTitle title="Work History" intro={introText} />
     <div class="space-y-12 my-16">

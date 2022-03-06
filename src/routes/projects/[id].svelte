@@ -15,7 +15,7 @@
   <title>Project - {project.name}</title>
 </svelte:head>
 
-<div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+<div class="container mt-20 lg:mt-36 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
   <div class="w-full">
     <PageTitle title={project.name} intro={project.description} />
     <div class="flex flex-row flex-wrap py-10">
