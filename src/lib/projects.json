@@ -78,5 +78,14 @@
     "description": "A small demo of using CSS Grid layout with flex items to create a beautiful dashboard style layout with a multi-column layout. This project also showcases some CSS effects such as on hover state &size transformation. Finally each panel is has a toggleable background on click.",
     "technologies": ["Svelte/Kit", "TailwindCSS", "CSS Grid"],
     "link": "/apps/dashboard-grid"
+  },
+  {
+    "name": "Re-a11y",
+    "id": 9,
+    "type": "development",
+    "img": "img/rea11y.png",
+    "description": "A website to host content about accessibility & perform basic accessibility tests on an url. The site makes use of Azure Functions to scan a given url & return the most important issues of any given url.",
+    "technologies": ["Svelte/Kit", "TailwindCSS", "Azure Functions"],
+    "link": "https://rea11y.ytsruh.com/"
   }
 ]
