@@ -87,5 +87,24 @@
     "description": "A website to host content about accessibility & perform basic accessibility tests on an url. The site makes use of Azure Functions to scan a given url & return the most important issues of any given url.",
     "technologies": ["Svelte/Kit", "TailwindCSS", "Azure Functions"],
     "link": "https://rea11y.ytsruh.com/"
+  },
+  {
+    "name": "Notion News",
+    "id": 10,
+    "type": "development",
+    "img": "img/notion-news.png",
+    "description": "A small news website built using NextJS and powered by Notion as a pseudo CMS. The app uses NextJS and server side rendering to display news articles that are stored in Notion and accessed through the Notion client. A simple Bootstrap implementation is used for styling with Sass for customisation.  ",
+    "technologies": ["NextJS", "Bootstrap 5", "Sass"],
+    "link": "https://notion-news.ytsruh.com/",
+    "github": "https://github.com/ytsruh/notion-news"
+  },
+  {
+    "name": "Mappin",
+    "id": 11,
+    "type": "development",
+    "img": "img/mappin.png",
+    "description": "App to store locations of where a user has travelled to using the MapBox API. The app has server powered by ExpressJS and uses Mongoose to connec to MongoDB with user registration & login functionality. On the client side, React is used to show a Single Page App, Axios is used to interact with the server & Material UI is used to style the app.",
+    "technologies": ["React JS", "Material UI", "MongoDB"],
+    "github": "https://github.com/ytsruh/mappin"
   }
 ]
