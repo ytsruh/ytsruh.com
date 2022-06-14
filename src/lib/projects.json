@@ -62,26 +62,8 @@
     "link": "https://mena.thomsonreuters.com"
   },
   {
-    "name": "Svelte Pokedex",
-    "id": 7,
-    "type": "development",
-    "img": "img/pokedex.png",
-    "description": "A demo app using Svelte & SvelteKit to replicate a Pokdex using the Pokemon API. The app uses the basic functionality of Svelte including; routing, params, stores & reactivity. The app includes a search bar to filter the original 151 Pokemon. TailwindCSS is used to style the app.",
-    "technologies": ["Svelte/Kit", "TailwindCSS", "Pokemon API"],
-    "link": "/apps/pokedex"
-  },
-  {
-    "name": "CSS Dashboard Grid",
-    "id": 8,
-    "type": "development",
-    "img": "img/dashboard-grid.png",
-    "description": "A small demo of using CSS Grid layout with flex items to create a beautiful dashboard style layout with a multi-column layout. This project also showcases some CSS effects such as on hover state &size transformation. Finally each panel is has a toggleable background on click.",
-    "technologies": ["Svelte/Kit", "TailwindCSS", "CSS Grid"],
-    "link": "/apps/dashboard-grid"
-  },
-  {
     "name": "Re-a11y",
-    "id": 9,
+    "id": 7,
     "type": "development",
     "img": "img/rea11y.png",
     "description": "A website to host content about accessibility & perform basic accessibility tests on an url. The site makes use of Azure Functions to scan a given url & return the most important issues of any given url.",
@@ -90,7 +72,7 @@
   },
   {
     "name": "Notion News",
-    "id": 10,
+    "id": 8,
     "type": "development",
     "img": "img/notion-news.png",
     "description": "A small news website built using NextJS and powered by Notion as a pseudo CMS. The app uses NextJS and server side rendering to display news articles that are stored in Notion and accessed through the Notion client. A simple Bootstrap implementation is used for styling with Sass for customisation.  ",
@@ -100,7 +82,7 @@
   },
   {
     "name": "Mappin",
-    "id": 11,
+    "id": 9,
     "type": "development",
     "img": "img/mappin.png",
     "description": "App to store locations of where a user has travelled to using the MapBox API. The app has server powered by ExpressJS and uses Mongoose to connec to MongoDB with user registration & login functionality. On the client side, React is used to show a Single Page App, Axios is used to interact with the server & Material UI is used to style the app.",

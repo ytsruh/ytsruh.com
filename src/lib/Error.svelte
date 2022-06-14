@@ -6,7 +6,7 @@
   <section class="w-full">
     <div>
       <PageTitle title="500: Error" intro="Something went wrong and we're really not sure why." />
-      <img src="img/500.jpeg" alt="404 Page Not Found" />
+      <img src="/img/500.jpeg" alt="404 Page Not Found" />
     </div>
   </section>
 </div>

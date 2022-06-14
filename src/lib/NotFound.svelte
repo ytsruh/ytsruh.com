@@ -9,7 +9,7 @@
         title="404: Page Not Found"
         intro="We can't find this page. Please return to the homepage & try again"
       />
-      <img src="img/400.jpeg" alt="404 Page Not Found" />
+      <img src="/img/400.jpeg" alt="404 Page Not Found" />
     </div>
   </section>
 </div>
