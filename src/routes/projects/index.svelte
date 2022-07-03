@@ -4,7 +4,7 @@
   import projects from "../../lib/projects.json";
   export const prerender = true;
   const introText =
-    "I've worked on a range of high impact marketing projects in my career, in both agencies as well major international companies. JavaScript has been used for projects in both a professional & personal capacity.";
+    "I've worked on a number of JavaScript projects, both client & server side. I have featured some of them below to show new technologies that have been used or where a project is deployed.";
 </script>
 
 <svelte:head>

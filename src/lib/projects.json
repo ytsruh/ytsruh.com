@@ -2,7 +2,6 @@
   {
     "name": "St Helens Marriage Index",
     "id": 1,
-    "type": "development",
     "img": "img/marriages.png",
     "description": "An online database of marriage in the St Helens area between 1536 & 2010. Built using React and Azure technologies the site takes years of historical records and makes it easy & fast to search through them.",
     "technologies": ["React JS", "Materialize CSS", "Azure Functions", "Azure Table Storage"],
@@ -12,7 +11,6 @@
   {
     "name": "Homeflix",
     "id": 2,
-    "type": "development",
     "img": "img/homeflix.png",
     "description": "A clone of Netflix using React JS, Azure Cosmos DB & Azure Functions. The app has full authentication using JWT & encryption for security and allows a use to search & play videos held within the library.",
     "technologies": [
@@ -27,44 +25,8 @@
     "github": "https://github.com/ytsruh/homeflix"
   },
   {
-    "name": "Refinitiv",
-    "id": 3,
-    "type": "marketing",
-    "img": "img/refinitiv.png",
-    "description": "Product manager responsibility for 5 local languages versions of Refinitiv.com. The project involved working with local marketing teams, translation agencies & the Adobe platform to expand the reach of marketing across the globe. After site build, my role shifted to increasing SEO performance through various on-site optimisations.",
-    "technologies": ["Adobe Experience Manager", "Adobe Launch", "Adobe Target", "Translation"],
-    "link": "https://www.refinitiv.com"
-  },
-  {
-    "name": "Emirates Paid Search",
-    "id": 4,
-    "type": "marketing",
-    "img": "img/emirates.png",
-    "description": "A short term project to help Emirates Airlines acquire extra customers for their holiday & travel agent business. The project happened over a short 3 month period with total ad spend of $1.2m with a total ROI of 4.2 achieved using real-time bidding strategies and linking to an inventory feed direct from Emirates to ensure bidding was optimal.",
-    "technologies": ["Google Adwords", "Google DoubleClick Bid Manager"],
-    "link": "https://www.emiratesholidays.com/"
-  },
-  {
-    "name": "Google Tag Manager",
-    "id": 5,
-    "type": "marketing",
-    "img": "img/tag-manager.png",
-    "description": "At Latitude Digital Marketing in Dubai my role involved managing the implementation of Google Tag Manager on behalf of clients in the region. This involved working with clients development/engineering teams to deploy the container & then to configure GTM to capture the variables & data that clients required.",
-    "technologies": ["Google Tag Manager", "JavaScript"]
-  },
-  {
-    "name": "Thomson Reuters MENA",
-    "id": 6,
-    "type": "marketing",
-    "img": "img/tr-mena.png",
-    "description": "Responsible for the build and deployment of a local version of the main Thomson Reuters site in the MENA region. The project involved a migration from an old Wordpress site, migration & build using Adobe and the decomissioning of the old WordPress website.",
-    "technologies": ["Adobe Experience Manager", "Adobe Launch", "Adobe Target"],
-    "link": "https://mena.thomsonreuters.com"
-  },
-  {
     "name": "Re-a11y",
-    "id": 7,
-    "type": "development",
+    "id": 3,
     "img": "img/rea11y.png",
     "description": "A website to host content about accessibility & perform basic accessibility tests on an url. The site makes use of Azure Functions to scan a given url & return the most important issues of any given url.",
     "technologies": ["Svelte/Kit", "TailwindCSS", "Azure Functions"],
@@ -72,8 +34,7 @@
   },
   {
     "name": "Notion News",
-    "id": 8,
-    "type": "development",
+    "id": 4,
     "img": "img/notion-news.png",
     "description": "A small news website built using NextJS and powered by Notion as a pseudo CMS. The app uses NextJS and server side rendering to display news articles that are stored in Notion and accessed through the Notion client. A simple Bootstrap implementation is used for styling with Sass for customisation.  ",
     "technologies": ["NextJS", "Bootstrap 5", "Sass"],
@@ -82,11 +43,27 @@
   },
   {
     "name": "Mappin",
-    "id": 9,
-    "type": "development",
+    "id": 5,
     "img": "img/mappin.png",
     "description": "App to store locations of where a user has travelled to using the MapBox API. The app has server powered by ExpressJS and uses Mongoose to connec to MongoDB with user registration & login functionality. On the client side, React is used to show a Single Page App, Axios is used to interact with the server & Material UI is used to style the app.",
     "technologies": ["React JS", "Material UI", "MongoDB"],
     "github": "https://github.com/ytsruh/mappin"
+  },
+  {
+    "name": "Devhub",
+    "id": 6,
+    "img": "img/devhub.png",
+    "description": "Designed to help developers in a few simple ways; sharing code, keeping notes & managing their portfolio. The app functions as a pseudo CMS for a developers portfolio, exposing their projects via a REST API that can be consumed by their personal portfolio.",
+    "technologies": ["Next JS", "React", "Tailwind CSS", "Cosmos DB / MongoDB", "Github Auth"],
+    "github": "https://github.com/ytsruh/devhub"
+  },
+  {
+    "name": "Pokedex",
+    "id": 7,
+    "img": "img/pokedex.png",
+    "description": "Built using Vanilla JavaScript, this project is a simple consumer of the Poke API. A user can filter through the original 151 Pokemon and see some very basic information on each of them. The PaperCSS library was used for styling to complete the 'minimal' effect & keep the size of the app extremely small.",
+    "technologies": ["Vanilla JS", "Paper CSS", "Poke API"],
+    "link": "https://ytsruh.github.io/pokedex/",
+    "github": "https://github.com/ytsruh/pokedex"
   }
 ]
