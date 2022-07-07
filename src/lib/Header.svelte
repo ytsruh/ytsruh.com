@@ -17,6 +17,7 @@
       <a href="/work-history" class={$page.url.pathname === "/work-history" ? "text-theme" : ""}
         >Work History</a
       >
+      <a href="/now" class={$page.url.pathname === "/now" ? "text-theme" : ""}>Now</a>
       <a href="/contact"><button class="px-6 py-2 bg-theme font-bold">Contact me</button></a>
     </div>
     <div class="md:hidden" on:click={() => toggleMenu()}>
@@ -41,6 +42,9 @@
           <a href="/work-history" class={$page.url.pathname === "/work-history" ? "text-theme" : ""}
             >Work History</a
           >
+        </li>
+        <li class="text-lg my-2">
+          <a href="/now" class={$page.url.pathname === "/now" ? "text-theme" : ""}>Now</a>
         </li>
         <li class="text-lg my-2">
           <a href="/contact">Contact me</a>

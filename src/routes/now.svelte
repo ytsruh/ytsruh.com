@@ -1,0 +1,96 @@
+<script context="module">
+  // Since there's no dynamic data here, we can prerender
+  // it so that it gets served as a static asset in prod
+  export const prerender = true;
+  import FaCheck from "svelte-icons/fa/FaCheck.svelte";
+  import FaTag from "svelte-icons/fa/FaTag.svelte";
+  import FaTasks from "svelte-icons/fa/FaTasks.svelte";
+  import FaTools from "svelte-icons/fa/FaTools.svelte";
+  import PageTitle from "$lib/PageTitle.svelte";
+  const introText =
+    "A now page. An overview of whats going on right now and what are the plans for the year.";
+</script>
+
+<svelte:head>
+  <title>Now | ytsruh.com</title>
+  <meta
+    name="description"
+    content="A now page. An overview of whats going on right now and what are the plans for the year."
+  />
+</svelte:head>
+
+<div class="container flex mt-20 lg:mt-36 mx-auto px-8 md:px-14 lg:px-24 w-full">
+  <section class="w-full">
+    <PageTitle title="Now" intro={introText} />
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 py-2 md:py-5">
+      <div class="py-5 md:py-0">
+        <h2 class="secondary-title">Now</h2>
+        <ul class="space-y-4 py-2">
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTag /></div>
+            <p>Working as LSEG</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTag /></div>
+            <p>Building my Machine Learning Skills</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTag /></div>
+            <p>Rennovating property</p>
+          </li>
+        </ul>
+      </div>
+      <div class="py-5 md:py-0">
+        <h2 class="secondary-title">2022 Goals</h2>
+        <ul class="space-y-4 py-2">
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaCheck /></div>
+            <p>Build a Svelte/Kit app</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaCheck /></div>
+            <p>Build v1 of DevHub</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaCheck /></div>
+            <p>Update Portfolio</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaCheck /></div>
+            <p>Complete a TailwindCSS course</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaCheck /></div>
+            <p>Use TailwindCSS for Homeflix</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTools /></div>
+            <p>Build iPhone app for Homeflix</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTasks /></div>
+            <p>Build ML Python app</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTasks /></div>
+            <p>Build app using Tensorflow.js or Brain.js</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <p class="text-lg py-5">
+        What is a now page? Click <a class="text-secondary" href="https://nownownow.com/about">here</a> to find
+        out.
+      </p>
+    </div>
+  </section>
+</div>
+
+<style>
+  .icon {
+    color: white;
+    width: 24px;
+    height: 24px;
+  }
+</style>
