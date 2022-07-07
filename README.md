@@ -6,3 +6,4 @@ Personal portfolio with links to Work History & Projects
 
 - TailwindCSS
 - Svelte / SvelteKit
+- Svelte Icons

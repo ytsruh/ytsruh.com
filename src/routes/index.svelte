@@ -3,6 +3,7 @@
   import ContactIcons from "$lib/ContactIcons.svelte";
   import Project from "../lib/Project.svelte";
   import projects from "../lib/projects.json";
+  const heroProjects = projects.slice(0, 6);
 </script>
 
 <svelte:head>
@@ -82,7 +83,7 @@
         capacity.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        {#each projects as project}
+        {#each heroProjects as project}
           <Project data={project} />
         {/each}
       </div>
