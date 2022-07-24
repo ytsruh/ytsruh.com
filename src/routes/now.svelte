@@ -64,15 +64,11 @@
             <p>Use TailwindCSS for Homeflix</p>
           </li>
           <li class="flex items-center">
-            <div class="icon mr-5"><FaTools /></div>
+            <div class="icon mr-5"><FaCheck /></div>
             <p>Build iPhone app for Homeflix</p>
           </li>
           <li class="flex items-center">
-            <div class="icon mr-5"><FaTasks /></div>
-            <p>Build ML Python app</p>
-          </li>
-          <li class="flex items-center">
-            <div class="icon mr-5"><FaTasks /></div>
+            <div class="icon mr-5"><FaCheck /></div>
             <p>Build app using Tensorflow.js or Brain.js</p>
           </li>
         </ul>
