@@ -14,10 +14,10 @@
     "img": "img/homeflix.png",
     "description": "A clone of Netflix using React JS, Azure Cosmos DB & Azure Functions. The app has full authentication using JWT & encryption for security and allows a use to search & play videos held within the library.",
     "technologies": [
-      "React JS",
-      "Bootstrap 5",
-      "Sass",
-      "Azure Functions",
+      "Next JS",
+      "React",
+      "Tailwind CSS",
+      "Vercel",
       "Cosmos DB / MongoDB",
       "JWT Authentication"
     ],
@@ -65,5 +65,22 @@
     "technologies": ["Vanilla JS", "Paper CSS", "Poke API"],
     "link": "https://ytsruh.github.io/pokedex/",
     "github": "https://github.com/ytsruh/pokedex"
+  },
+  {
+    "name": "Tensorflow Predictions",
+    "id": 8,
+    "img": "img/tensorflow.png",
+    "description": "A short project to start learning TensorFlow JS. This project aims to predict a cars miles per gallon by taking mpg & horsepower as inputs. In this project the data was loaded, a model was created & trained before making some predictions based on more input data. All of this was visualised using tfjs-vis library.",
+    "technologies": ["TensorflowJS", "Machine Learning"],
+    "link": "https://ytsruh.github.io/tensorflow-predictions/",
+    "github": "https://github.com/ytsruh/tensorflow-predictions"
+  },
+  {
+    "name": "Homeflix Mobile",
+    "id": 9,
+    "img": "img/homeflix-mobile.png",
+    "description": "An iOS app for the Homeflix application built using React Native. The app is made to provide the main functionality of the web app that lets users consume Movies & Tv Shows and make use of the native features of iOS such as Airplay.",
+    "technologies": ["React Native", "React Navigation", "NativeWind"],
+    "github": "https://github.com/ytsruh/homeflix-mobile"
   }
 ]

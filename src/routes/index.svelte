@@ -78,9 +78,8 @@
     <section class="w-full">
       <h2 id="projects" class="secondary-title">Projects</h2>
       <p class="section-paragraph">
-        I've worked on a range of high impact marketing projects in my career, in both agencies as well major
-        international companies. JavaScript has been used for projects in both a professional & personal
-        capacity.
+        I've worked on a number of JavaScript projects, both client & server side. I have featured some of
+        them below to show new technologies that have been used or where a project is deployed.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {#each heroProjects as project}
@@ -95,8 +94,9 @@
     <section class="w-full">
       <h2 id="work" class="secondary-title">Work History</h2>
       <p class="section-paragraph">
-        I've worked on a number of JavaScript projects, both client & server side. I have featured some of
-        them below to show new technologies that have been used or where a project is deployed.
+        With over 10 years of expereince in digital marketing I am a strong and well rounded leader of teams.
+        I have a range of experience working in digital agenices as well multinational companies in various
+        disiplines of digital & marketing.
       </p>
       <div class="space-y-12 my-16">
         <!-- work -->
