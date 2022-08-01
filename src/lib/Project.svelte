@@ -14,9 +14,9 @@
 <div
   class={`${
     modal ? "" : "hidden"
-  } fixed z-50 inset-0 bg-body bg-opacity-75 overflow-y-auto h-full w-full px-4`}
+  } fixed z-50 inset-0 bg-body bg-opacity-75 overflow-y-auto h-full w-full px-5`}
 >
-  <div class="relative top-40 mx-auto shadow-lg rounded-md bg-body max-w-md">
+  <div class="relative top-40 mx-auto shadow-lg rounded-md bg-body w-100 sm:w-3/4 md:w-2/3 lg:w-1/2">
     <!-- Modal header -->
     <div class="flex justify-between items-center bg-theme text-white text-xl rounded-t-md p-5">
       <h3>{data.name}</h3>

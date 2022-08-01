@@ -30,7 +30,7 @@
     "img": "img/rea11y.png",
     "description": "A website to host content about accessibility & perform basic accessibility tests on an url. The site makes use of Azure Functions to scan a given url & return the most important issues of any given url.",
     "technologies": ["Svelte/Kit", "TailwindCSS", "Azure Functions"],
-    "link": "https://rea11y.ytsruh.com/"
+    "github": "https://github.com/ytsruh/rea11y"
   },
   {
     "name": "Notion News",
@@ -38,7 +38,6 @@
     "img": "img/notion-news.png",
     "description": "A small news website built using NextJS and powered by Notion as a pseudo CMS. The app uses NextJS and server side rendering to display news articles that are stored in Notion and accessed through the Notion client. A simple Bootstrap implementation is used for styling with Sass for customisation.  ",
     "technologies": ["NextJS", "Bootstrap 5", "Sass"],
-    "link": "https://notion-news.ytsruh.com/",
     "github": "https://github.com/ytsruh/notion-news"
   },
   {
@@ -79,7 +78,7 @@
     "name": "Homeflix Mobile",
     "id": 9,
     "img": "img/homeflix-mobile.png",
-    "description": "An iOS app for the Homeflix application built using React Native. The app is made to provide the main functionality of the web app that lets users consume Movies & Tv Shows and make use of the native features of iOS such as Airplay.",
+    "description": "An iOS app for the Homeflix application built using React Native. The app is made to provide the main functionality of the web app that lets users consume Movies & TV Shows and make use of the native features of iOS such as Airplay.",
     "technologies": ["React Native", "React Navigation", "NativeWind"],
     "github": "https://github.com/ytsruh/homeflix-mobile"
   }
