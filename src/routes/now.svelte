@@ -95,11 +95,7 @@
           </li>
           <li class="flex items-center">
             <div class="icon mr-5"><FaTasks /></div>
-            <p>Learn Swift</p>
-          </li>
-          <li class="flex items-center">
-            <div class="icon mr-5"><FaTasks /></div>
-            <p>Plan a monetisable new project</p>
+            <p>Learn new language (Swift or Rust?)</p>
           </li>
         </ul>
       </div>
