@@ -72,6 +72,36 @@
             <p>Build app using Tensorflow.js or Brain.js</p>
           </li>
         </ul>
+        <h2 class="secondary-title py-2">
+          Extra Goals <span class="text-sm">My 2022 goals weren't enough :)</span>
+        </h2>
+
+        <ul class="space-y-4 py-2">
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaCheck /></div>
+            <p>Update & move Marriage Index project to Vercel</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTools /></div>
+            <p>Update Portfolio to use Astro for work history</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTasks /></div>
+            <p>Merge Rea11y & develop Kaizen project</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTasks /></div>
+            <p>Create a public API for new developers</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTasks /></div>
+            <p>Learn Swift</p>
+          </li>
+          <li class="flex items-center">
+            <div class="icon mr-5"><FaTasks /></div>
+            <p>Plan a monetisable new project</p>
+          </li>
+        </ul>
       </div>
     </div>
     <div>
