@@ -1,23 +1,24 @@
 <script>
-  export const prerender = true;
-  import { page } from "$app/stores";
+  import { onMount } from "svelte";
   export let menuOpen = false;
-
+  let page = "";
   function toggleMenu() {
     menuOpen = !menuOpen;
   }
+
+  onMount(() => {
+    page = window.location.pathname;
+  });
 </script>
 
 <header class="py-6">
   <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
     <a href="/" class="text-lg font-bold">ytsruh.com</a>
-    <div class="hidden md:flex space-x-12 items-center">
-      <a href="/" class={$page.url.pathname === "/" ? "text-theme" : ""}>Home</a>
-      <a href="/projects" class={$page.url.pathname === "/projects" ? "text-theme" : ""}>Projects</a>
-      <a href="/work-history" class={$page.url.pathname === "/work-history" ? "text-theme" : ""}
-        >Work History</a
-      >
-      <a href="/now" class={$page.url.pathname === "/now" ? "text-theme" : ""}>Now</a>
+    <div class="hidden md:flex items-center space-x-6 xl:space-x-12">
+      <a href="/" class={page === "/" ? "text-theme" : ""}>Home</a>
+      <a href="/projects" class={page.includes("/projects") ? "text-theme" : ""}>Projects</a>
+      <a href="/work-history" class={page.includes("/work-history") ? "text-theme" : ""}>Work History</a>
+      <a href="/now" class={page.includes("/now") ? "text-theme" : ""}>Now</a>
       <a href="/contact"><button class="px-6 py-2 bg-theme font-bold">Contact me</button></a>
     </div>
     <div class="md:hidden" on:click={() => toggleMenu()}>
@@ -33,21 +34,19 @@
     <div>
       <ul class="text-center py-3">
         <li class="text-lg my-2">
-          <a href="/" class={$page.url.pathname === "/" ? "text-theme" : ""}>Home</a>
+          <a href="/" class={page === "/" ? "text-theme" : ""}>Home</a>
         </li>
         <li class="text-lg my-2">
-          <a href="/projects" class={$page.url.pathname === "/projects" ? "text-theme" : ""}>Projects</a>
+          <a href="/projects" class={page.includes("/projects") ? "text-theme" : ""}>Projects</a>
         </li>
         <li class="text-lg my-2">
-          <a href="/work-history" class={$page.url.pathname === "/work-history" ? "text-theme" : ""}
-            >Work History</a
-          >
+          <a href="/work-history" class={page.includes("/work-history") ? "text-theme" : ""}>Work History</a>
         </li>
         <li class="text-lg my-2">
-          <a href="/now" class={$page.url.pathname === "/now" ? "text-theme" : ""}>Now</a>
+          <a href="/now" class={page.includes("/now") ? "text-theme" : ""}>Now</a>
         </li>
         <li class="text-lg my-2">
-          <a href="/contact">Contact me</a>
+          <a href="/contact" class={page.includes("/contact") ? "text-theme" : ""}>Contact me</a>
         </li>
       </ul>
     </div>

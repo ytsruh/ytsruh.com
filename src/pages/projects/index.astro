@@ -1,0 +1,23 @@
+---
+import MainLayout from "@layouts/main.astro";
+import PageTitle from "@lib/PageTitle.svelte";
+import ProjectLink from "@lib/ProjectLink.svelte";
+import projects from "../../lib/projects.json";
+const introText =
+  "I've worked on a number of JavaScript projects, both client & server side. I have featured some of them below to show new technologies that have been used or where a project is deployed.";
+---
+
+<MainLayout>
+  <div
+    class="container mt-20 lg:mt-36 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+  >
+    <section class="w-full">
+      <PageTitle title="Projects" intro={introText} />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-24">
+        {projects.map((project) => {
+          return <ProjectLink data={project} />;
+        })}
+      </div>
+    </section>
+  </div>
+</MainLayout>

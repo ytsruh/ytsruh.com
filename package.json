@@ -2,21 +2,24 @@
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.28",
-    "@sveltejs/kit": "next",
+    "@astrojs/sitemap": "^0.3.0",
+    "@astrojs/svelte": "^0.5.1",
+    "@astrojs/tailwind": "^0.2.5",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5",
-    "svelte": "^3.44.0",
+    "prettier-plugin-astro": "^0.2.0",
+    "svelte": "^3.49.0",
     "tailwindcss": "^3.0.16"
   },
   "type": "module",
   "dependencies": {
+    "astro": "^1.0.0-rc.3",
     "svelte-icons": "^2.1.0"
   }
 }

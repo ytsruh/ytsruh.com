@@ -1,0 +1,38 @@
+---
+import "../index.css";
+import Header from "@lib/Header.svelte";
+import Footer from "@lib/Footer.svelte";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="bg-body text-white font-raleway">
+    <main>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript>
+        <iframe
+          title="Google Tag Manager"
+          src="https://www.googletagmanager.com/ns.html?id=GTM-W8HB92T"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"></iframe>
+      </noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      <Header client:load />
+      <div class="main-height">
+        <slot />
+      </div>
+      <Footer />
+    </main>
+    <style>
+      .main-height {
+        min-height: 60vh;
+      }
+    </style>
+  </body>
+</html>

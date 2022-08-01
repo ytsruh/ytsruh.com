@@ -1,0 +1,47 @@
+---
+import MainLayout from "../layouts/main.astro";
+import PageTitle from "@lib/PageTitle.svelte";
+import WorkItem from "@lib/WorkItem.svelte";
+const introText =
+  "With over 10 years of expereince in digital marketing I am a strong and well rounded leader of teams. I have a range of experience working in digital agenices as well multinational companies in various disiplines of digital & marketing.";
+---
+
+<MainLayout>
+  <div
+    class="container mt-20 lg:mt-36 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+  >
+    <section class="w-full">
+      <PageTitle title="Work History" intro={introText} />
+      <div class="space-y-12 my-16">
+        <WorkItem
+          title="Digital Enablement Manager"
+          company="London Stock Exchange"
+          time="Sep 21 - Current"
+          desc="Acting as product owner for all marketing websites in the group. Working with multiple development teams to support, maintain & enhance the Adobe & Drupal platforms."
+          logo="img/lseg.svg"
+        />
+        <WorkItem
+          title="Digital Localisation Manager"
+          company="Refinitiv"
+          time="Oct 18 - Sep 21"
+          desc="Responsible for management of 6 local langauge websites built using Adobe Experience Manager. Secondary responsibility for website perfromance channels such as SEO, Paid Search & Social."
+          logo="img/refinitiv.jpeg"
+        />
+        <WorkItem
+          title="Head of Digital - Middle East"
+          company="Thomson Reuters"
+          time="Dec 16 - Oct 18"
+          desc="Lead & revenue generating responsibility for the MENA region of Thomson Reuters using all available digtial channels. Digital analytics and reporting dashboard integrated into CRM and sales dashboards."
+          logo="img/thomson-reuters.png"
+        />
+        <WorkItem
+          title="Account Manager - Middle East"
+          company="Latitude Digital Marketing"
+          time="Jun 12 - Dec 15"
+          desc="Responsible for account management for a selection of key strategic accounts in the region across Travel, Ecommerce & Financial sectors. Advising clients on all Paid & Organic Digital channels to increase business & website performance"
+          logo="img/latitude.png"
+        />
+      </div>
+    </section>
+  </div>
+</MainLayout>
