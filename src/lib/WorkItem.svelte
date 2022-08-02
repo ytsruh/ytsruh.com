@@ -4,6 +4,7 @@
   export let time;
   export let title;
   export let desc;
+  export let link;
 </script>
 
 <div
@@ -23,5 +24,8 @@
     <p class="text-secondary">
       {desc}
     </p>
+    <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6">
+      <a class="btn" href={link}>View More</a>
+    </div>
   </div>
 </div>

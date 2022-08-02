@@ -38,6 +38,10 @@ body {
   @apply px-4 py-2 text-sm rounded bg-badge;
 }
 
+.btn {
+  @apply px-4 py-2 text-sm rounded bg-theme;
+}
+
 [id] {
   scroll-margin-top: 100px;
 }
@@ -74,3 +78,26 @@ body {
 .intro-paragraph {
   @apply text-secondary text-lg my-6 w-full max-w-3xl;
 }
+
+/*
+  Work History 
+*/
+#overview {
+  @apply text-theme text-2xl py-2;
+}
+
+#key-projects--achievements {
+  @apply text-theme text-2xl py-2;
+}
+
+#work-content p {
+  @apply py-1 text-lg;
+}
+
+#work-content ul li {
+  @apply list-disc list-inside text-lg;
+}
+
+/*
+  End Work History 
+*/

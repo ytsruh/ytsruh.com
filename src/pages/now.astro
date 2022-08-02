@@ -1,14 +1,14 @@
 ---
-import MainLayout from "../layouts/main.astro";
+import MainLayout from "@layouts/main.astro";
 import FaCheck from "svelte-icons/fa/FaCheck.svelte";
 import FaTag from "svelte-icons/fa/FaTag.svelte";
 import FaTasks from "svelte-icons/fa/FaTasks.svelte";
 import FaTools from "svelte-icons/fa/FaTools.svelte";
 import PageTitle from "@lib/PageTitle.svelte";
-const introText = "A now page. An overview of whats going on right now and what are the plans for the year.";
+const introText = "A now page. An overview of whats going on right now and what the plans are for the year.";
 ---
 
-<MainLayout>
+<MainLayout title="Now" desc={introText}>
   <div class="container flex mt-20 lg:mt-36 mx-auto px-8 md:px-14 lg:px-24 w-full">
     <section class="w-full">
       <PageTitle title="Now" intro={introText} />
@@ -27,6 +27,10 @@ const introText = "A now page. An overview of whats going on right now and what 
             <li class="flex items-center">
               <div class="icon mr-5"><FaTag /></div>
               <p>Rennovating property</p>
+            </li>
+            <li class="flex items-center">
+              <div class="icon mr-5"><FaTag /></div>
+              <p>Improving my fitness</p>
             </li>
           </ul>
         </div>
@@ -72,8 +76,12 @@ const introText = "A now page. An overview of whats going on right now and what 
               <p>Update & move Marriage Index project to Vercel</p>
             </li>
             <li class="flex items-center">
-              <div class="icon mr-5"><FaTools /></div>
+              <div class="icon mr-5"><FaCheck /></div>
               <p>Update Portfolio to use Astro for work history</p>
+            </li>
+            <li class="flex items-center">
+              <div class="icon mr-5"><FaTools /></div>
+              <p>Create a public API for new developers</p>
             </li>
             <li class="flex items-center">
               <div class="icon mr-5"><FaTasks /></div>
@@ -81,11 +89,7 @@ const introText = "A now page. An overview of whats going on right now and what 
             </li>
             <li class="flex items-center">
               <div class="icon mr-5"><FaTasks /></div>
-              <p>Create a public API for new developers</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTasks /></div>
-              <p>Learn new language (Swift or Rust?)</p>
+              <p>Learn new language (Swift or Go?)</p>
             </li>
           </ul>
         </div>

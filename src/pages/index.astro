@@ -1,5 +1,5 @@
 ---
-import MainLayout from "../layouts/main.astro";
+import MainLayout from "@layouts/main.astro";
 import ContactIcons from "@lib/ContactIcons.svelte";
 import HomeSideNav from "@lib/HomeSideNav.svelte";
 import Project from "@lib/Project.svelte";
@@ -7,7 +7,10 @@ import projects from "../lib/projects.json";
 const heroProjects = projects.slice(0, 6);
 ---
 
-<MainLayout>
+<MainLayout
+  title="Home"
+  desc="Personal website & portfolio of Chris Hurst a digital marketer & JavaScript developer. JavaScript, Typescript and some other languages thrown in."
+>
   <!-- HERO SECTION-->
   <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
     <div class="flex flex-wrap md:flex-nowrap">
