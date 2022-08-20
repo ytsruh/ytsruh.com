@@ -19,7 +19,7 @@
   },
   "type": "module",
   "dependencies": {
-    "astro": "^1.0.0-rc.3",
+    "astro": "^1.0.6",
     "svelte-icons": "^2.1.0"
   }
 }
