@@ -4,6 +4,7 @@ import FaCheck from "svelte-icons/fa/FaCheck.svelte";
 import FaTag from "svelte-icons/fa/FaTag.svelte";
 import FaTasks from "svelte-icons/fa/FaTasks.svelte";
 import FaTools from "svelte-icons/fa/FaTools.svelte";
+import DiGo from "svelte-icons/di/DiGo.svelte";
 import PageTitle from "@lib/PageTitle.svelte";
 const introText = "A now page. An overview of whats going on right now and what the plans are for the year.";
 ---
@@ -22,7 +23,7 @@ const introText = "A now page. An overview of whats going on right now and what 
             </li>
             <li class="flex items-center">
               <div class="icon mr-5"><FaTag /></div>
-              <p>Building my Machine Learning Skills</p>
+              <p>Building my Development Skills</p>
             </li>
             <li class="flex items-center">
               <div class="icon mr-5"><FaTag /></div>
@@ -81,15 +82,11 @@ const introText = "A now page. An overview of whats going on right now and what 
             </li>
             <li class="flex items-center">
               <div class="icon mr-5"><FaTools /></div>
-              <p>Create a public API for new developers</p>
+              <p>Build Kaizen app & merge Rea11y project</p>
             </li>
             <li class="flex items-center">
               <div class="icon mr-5"><FaTasks /></div>
-              <p>Merge Rea11y & develop Kaizen project</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTasks /></div>
-              <p>Learn new language (Swift or Go?)</p>
+              <p>Learn Go / Golang</p><div class="icon-go ml-2"><DiGo /></div>
             </li>
           </ul>
         </div>
@@ -109,5 +106,11 @@ const introText = "A now page. An overview of whats going on right now and what 
     color: white;
     width: 24px;
     height: 24px;
+  }
+
+  .icon-go {
+    color: white;
+    width: 36px;
+    height: 36px;
   }
 </style>
