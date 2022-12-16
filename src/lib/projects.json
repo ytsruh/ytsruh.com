@@ -5,7 +5,6 @@
     "img": "img/marriages.png",
     "description": "An online database of marriage in the St Helens area between 1536 & 2010. Built using React and Azure technologies the site takes years of historical records and makes it easy & fast to search through them.",
     "technologies": ["React JS", "Materialize CSS", "Azure Functions", "Azure Table Storage"],
-    "link": "https://marriages.ytsruh.com/",
     "github": "https://github.com/ytsruh/marriage-index"
   },
   {
@@ -98,7 +97,6 @@
       "Nodemailer",
       "Azure Storage"
     ],
-    "link": "https://kaizen.ytsruh.com/",
     "github": "https://github.com/ytsruh/kaizen"
   }
 ]
