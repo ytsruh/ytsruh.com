@@ -13,90 +13,53 @@ const introText = "A now page. An overview of whats going on right now and what 
   <div class="container flex mt-20 lg:mt-36 mx-auto px-8 md:px-14 lg:px-24 w-full">
     <section class="w-full">
       <PageTitle title="Now" intro={introText} />
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 py-2 md:py-5">
-        <div class="py-5 md:py-0">
-          <h2 class="secondary-title">Now</h2>
-          <ul class="space-y-4 py-2">
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTag /></div>
-              <p>Working as LSEG</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTag /></div>
-              <p>Building my Development Skills</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTag /></div>
-              <p>Rennovating property</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTag /></div>
-              <p>Improving my fitness</p>
-            </li>
-          </ul>
+      <ul class="space-y-4 py-5">
+        <li class="flex items-center">
+          <div class="icon mr-5"><FaTag /></div>
+          <p>Working at <a href="http://www.lseg.com" target="_blank">LSEG</a> in the digital team</p>
+        </li>
+        <li class="flex items-center">
+          <div class="icon mr-5"><FaTag /></div>
+          <p>Improving my TypeScript & Go skills</p>
+        </li>
+        <li class="flex items-center">
+          <div class="icon mr-5"><FaTag /></div>
+          <p>Rennovating property</p>
+        </li>
+        <li class="flex items-center">
+          <div class="icon mr-5"><FaTag /></div>
+          <p>Improving my fitness</p>
+        </li>
+      </ul>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 py-5 md:py-10">
+        <div>
+          <h2 class="secondary-title">TypeScript</h2>
+          <p class="py-2">
+            Currently I'm upgrading my projects to TypeScript. JavaScript was a great starting point but the
+            advanced parts of TypeScript have really helped reduce bugs and make web applications easier to
+            build.
+          </p>
         </div>
-        <div class="py-5 md:py-0">
-          <h2 class="secondary-title">2022 Goals</h2>
-          <ul class="space-y-4 py-2">
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Build a Svelte/Kit app</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Build v1 of DevHub</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Update Portfolio</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Complete a TailwindCSS course</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Use TailwindCSS for Homeflix</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Build iPhone app for Homeflix</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Build app using Tensorflow.js or Brain.js</p>
-            </li>
-          </ul>
-          <h2 class="secondary-title py-2">
-            Extra Goals <span class="text-sm">My 2022 goals weren't enough :)</span>
-          </h2>
-
-          <ul class="space-y-4 py-2">
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Update & move Marriage Index project to Vercel</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaCheck /></div>
-              <p>Update Portfolio to use Astro for work history</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTools /></div>
-              <p>Build Kaizen app & merge Rea11y project</p>
-            </li>
-            <li class="flex items-center">
-              <div class="icon mr-5"><FaTasks /></div>
-              <p>Learn Go / Golang</p><div class="icon-go ml-2"><DiGo /></div>
-            </li>
-          </ul>
+        <div>
+          <h2 class="secondary-title">Go</h2>
+          <p class="py-2">
+            My main goal in 2023 is learning Go. I've been keen to learn a faster language than JavaScript in
+            order to deal with data more effeciently and Go provides speed & simplicty.
+          </p>
+        </div>
+        <div>
+          <h2 class="secondary-title">Digital Ocean</h2>
+          <p class="py-2">
+            Most of my projects use Microsoft Azure for datbases & storage but I've ran into issues with
+            various modern JS/TS libraries, authentication & the SDK. I'll be moving my projects to the more
+            simple cloud provider Digital Ocean & keeping the majority of hosting on Vercel.
+          </p>
         </div>
       </div>
-      <div>
-        <p class="text-lg py-5">
-          What is a now page? Click <a class="text-secondary" href="https://nownownow.com/about">here</a> to find
-          out.
-        </p>
-      </div>
+      <p class="text-lg">
+        What is a now page? Click <a class="text-secondary" href="https://nownownow.com/about">here</a> to find
+        out.
+      </p>
     </section>
   </div>
 </MainLayout>

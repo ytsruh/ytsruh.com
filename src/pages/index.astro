@@ -9,7 +9,7 @@ const heroProjects = projects.slice(0, 6);
 
 <MainLayout
   title="Home"
-  desc="Personal website & portfolio of Chris Hurst a digital marketer & JavaScript developer. JavaScript, Typescript and some other languages thrown in."
+  desc="Personal website & portfolio of Chris Hurst a digital marketer & TypeScript/Go developer. Typescript, Go and some other languages thrown in."
 >
   <!-- HERO SECTION-->
   <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
@@ -19,7 +19,7 @@ const heroProjects = projects.slice(0, 6);
         <div class="basis-full lg:basis-1/2">
           <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Chris Hurst</h1>
           <h3 class="font-bold text-3xl md:text-4xl lg:text-5xl text-center md:text-left">
-            Digital Marketer & Javascript Developer
+            Digital Marketer & TypeScript / Go Developer
           </h3>
           <div class="w-full flex justify-center md:justify-start">
             <a
@@ -59,8 +59,8 @@ const heroProjects = projects.slice(0, 6);
     <section class="w-full">
       <h2 id="projects" class="secondary-title">Projects</h2>
       <p class="section-paragraph">
-        I've worked on a number of JavaScript projects, both client & server side. I have featured some of
-        them below to show new technologies that have been used or where a project is deployed.
+        I've worked on a number of projects, both client & server side. I have featured some of them below to
+        show new technologies that have been used or where a project is deployed.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {heroProjects.map((project) => <Project data={project} client:load />)}

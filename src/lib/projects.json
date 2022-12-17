@@ -85,18 +85,8 @@
     "name": "Kaizen",
     "id": 10,
     "img": "img/kaizen.png",
-    "description": "A larger project combining a number of previous ideas. Kaizen is targeted at helping new developers by providing tools to help the learning process. Two public API's are available for developers to build their own apps. TypeScript is used extensively to produce more reliability over time as well as a relational database.",
-    "technologies": [
-      "Next JS",
-      "Typescript",
-      "React",
-      "Tailwind CSS",
-      "Prisma",
-      "MySQL",
-      "NextAuth",
-      "Nodemailer",
-      "Azure Storage"
-    ],
+    "description": "Kaizen is all about learning & using Svelte, along with SvelteKit. After spending so much time using React & NextJS it was time to trial something else. This simple note taking app is an easy intro to Svelte and can be expanded in the future.",
+    "technologies": ["Svelte/Kit", "Typescript", "Tailwind CSS"],
     "github": "https://github.com/ytsruh/kaizen"
   }
 ]
