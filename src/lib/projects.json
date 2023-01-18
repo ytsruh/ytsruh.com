@@ -11,15 +11,8 @@
     "name": "Homeflix",
     "id": 2,
     "img": "img/homeflix.png",
-    "description": "A clone of Netflix using React JS, Azure Cosmos DB & Azure Functions. The app has full authentication using JWT & encryption for security and allows a use to search & play videos held within the library.",
-    "technologies": [
-      "Next JS",
-      "React",
-      "Tailwind CSS",
-      "Vercel",
-      "Cosmos DB / MongoDB",
-      "JWT Authentication"
-    ],
+    "description": "Inspired by Netflix and using Next JS & Postgres DB. The app has full authentication using JWT & encryption for security and allows a use to search & play videos held within the library.",
+    "technologies": ["Next JS", "React", "Tailwind CSS", "Vercel", "Postgres", "JWT Authentication"],
     "link": "https://homeflix.ytsruh.com/",
     "github": "https://github.com/ytsruh/homeflix"
   },
@@ -88,5 +81,22 @@
     "description": "Kaizen is all about learning & using Svelte, along with SvelteKit. After spending so much time using React & NextJS it was time to trial something else. This simple note taking app is an easy intro to Svelte and can be expanded in the future.",
     "technologies": ["Svelte/Kit", "Typescript", "Tailwind CSS"],
     "github": "https://github.com/ytsruh/kaizen"
+  },
+  {
+    "name": "Wrongmove",
+    "id": 11,
+    "img": "img/wrongmove.png",
+    "description": "A collaboration with a friend, Wrongmove is a clone of the Rightmove website using NextJS &Vanilla CSS on the client side with an Express API and Postgres database on the server side. The app has full CRUD functionality including image upload.",
+    "technologies": [
+      "Next JS",
+      "React",
+      "Vanilla CSS",
+      "Vercel",
+      "Postgres",
+      "JWT Authentication",
+      "ExpressJS"
+    ],
+    "github": "https://github.com/ytsruh/wrongmove",
+    "link": "https://wrongmove.ytsruh.com/"
   }
 ]
