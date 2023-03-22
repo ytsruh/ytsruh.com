@@ -17,49 +17,8 @@
     "github": "https://github.com/ytsruh/homeflix"
   },
   {
-    "name": "Re-a11y",
-    "id": 3,
-    "img": "img/rea11y.png",
-    "description": "A website to host content about accessibility & perform basic accessibility tests on an url. The site makes use of Azure Functions to scan a given url & return the most important issues of any given url.",
-    "technologies": ["Svelte/Kit", "TailwindCSS", "Azure Functions"],
-    "github": "https://github.com/ytsruh/rea11y"
-  },
-  {
-    "name": "Notion News",
-    "id": 4,
-    "img": "img/notion-news.png",
-    "description": "A small news website built using NextJS and powered by Notion as a pseudo CMS. The app uses NextJS and server side rendering to display news articles that are stored in Notion and accessed through the Notion client. A simple Bootstrap implementation is used for styling with Sass for customisation.  ",
-    "technologies": ["NextJS", "Bootstrap 5", "Sass"],
-    "github": "https://github.com/ytsruh/notion-news"
-  },
-  {
-    "name": "Mappin",
-    "id": 5,
-    "img": "img/mappin.png",
-    "description": "App to store locations of where a user has travelled to using the MapBox API. The app has server powered by ExpressJS and uses Mongoose to connec to MongoDB with user registration & login functionality. On the client side, React is used to show a Single Page App, Axios is used to interact with the server & Material UI is used to style the app.",
-    "technologies": ["React JS", "Material UI", "MongoDB"],
-    "github": "https://github.com/ytsruh/mappin"
-  },
-  {
-    "name": "Devhub",
-    "id": 6,
-    "img": "img/devhub.png",
-    "description": "Designed to help developers in a few simple ways; sharing code, keeping notes & managing their portfolio. The app functions as a pseudo CMS for a developers portfolio, exposing their projects via a REST API that can be consumed by their personal portfolio.",
-    "technologies": ["Next JS", "React", "Tailwind CSS", "Cosmos DB / MongoDB", "Github Auth"],
-    "github": "https://github.com/ytsruh/devhub"
-  },
-  {
-    "name": "Pokedex",
-    "id": 7,
-    "img": "img/pokedex.png",
-    "description": "Built using Vanilla JavaScript, this project is a simple consumer of the Poke API. A user can filter through the original 151 Pokemon and see some very basic information on each of them. The PaperCSS library was used for styling to complete the 'minimal' effect & keep the size of the app extremely small.",
-    "technologies": ["Vanilla JS", "Paper CSS", "Poke API"],
-    "link": "https://ytsruh.github.io/pokedex/",
-    "github": "https://github.com/ytsruh/pokedex"
-  },
-  {
     "name": "Tensorflow Predictions",
-    "id": 8,
+    "id": 3,
     "img": "img/tensorflow.png",
     "description": "A short project to start learning TensorFlow JS. This project aims to predict a cars miles per gallon by taking mpg & horsepower as inputs. In this project the data was loaded, a model was created & trained before making some predictions based on more input data. All of this was visualised using tfjs-vis library.",
     "technologies": ["TensorflowJS", "Machine Learning"],
@@ -67,24 +26,17 @@
     "github": "https://github.com/ytsruh/tensorflow-predictions"
   },
   {
-    "name": "Homeflix Mobile",
-    "id": 9,
-    "img": "img/homeflix-mobile.png",
-    "description": "An iOS app for the Homeflix application built using React Native. The app is made to provide the main functionality of the web app that lets users consume Movies & TV Shows and make use of the native features of iOS such as Airplay.",
-    "technologies": ["React Native", "React Navigation", "NativeWind"],
-    "github": "https://github.com/ytsruh/homeflix-mobile"
-  },
-  {
-    "name": "Kaizen",
-    "id": 10,
-    "img": "img/kaizen.png",
-    "description": "Kaizen is all about learning & using Svelte, along with SvelteKit. After spending so much time using React & NextJS it was time to trial something else. This simple note taking app is an easy intro to Svelte and can be expanded in the future.",
-    "technologies": ["Svelte/Kit", "Typescript", "Tailwind CSS"],
-    "github": "https://github.com/ytsruh/kaizen"
+    "name": "Pokedex",
+    "id": 4,
+    "img": "img/pokedex.png",
+    "description": "Built using Vanilla JavaScript, this project is a simple consumer of the Poke API. A user can filter through the original 151 Pokemon and see some very basic information on each of them. The PaperCSS library was used for styling to complete the 'minimal' effect & keep the size of the app extremely small.",
+    "technologies": ["Vanilla JS", "Paper CSS", "Poke API"],
+    "link": "https://ytsruh.github.io/pokedex/",
+    "github": "https://github.com/ytsruh/pokedex"
   },
   {
     "name": "Wrongmove",
-    "id": 11,
+    "id": 5,
     "img": "img/wrongmove.png",
     "description": "A collaboration with a friend, Wrongmove is a clone of the Rightmove website using NextJS &Vanilla CSS on the client side with an Express API and Postgres database on the server side. The app has full CRUD functionality including image upload.",
     "technologies": [
