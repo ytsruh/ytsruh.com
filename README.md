@@ -2,7 +2,7 @@
 
 Personal portfolio with links to Work History & Projects
 
-### Key Technologies
+### Built using
 
 - TailwindCSS
 - Astro

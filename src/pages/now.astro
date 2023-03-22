@@ -1,10 +1,6 @@
 ---
 import MainLayout from "@layouts/main.astro";
-import FaCheck from "svelte-icons/fa/FaCheck.svelte";
 import FaTag from "svelte-icons/fa/FaTag.svelte";
-import FaTasks from "svelte-icons/fa/FaTasks.svelte";
-import FaTools from "svelte-icons/fa/FaTools.svelte";
-import DiGo from "svelte-icons/di/DiGo.svelte";
 import PageTitle from "@lib/PageTitle.svelte";
 const introText = "A now page. An overview of whats going on right now and what the plans are for the year.";
 ---
@@ -16,7 +12,10 @@ const introText = "A now page. An overview of whats going on right now and what 
       <ul class="space-y-4 py-5">
         <li class="flex items-center">
           <div class="icon mr-5"><FaTag /></div>
-          <p>Working at <a href="http://www.lseg.com" target="_blank">LSEG</a> in the digital team</p>
+          <p>
+            Working at <a href="http://www.lseg.com" class="text-theme/75" target="_blank">LSEG</a> in the digital
+            team
+          </p>
         </li>
         <li class="flex items-center">
           <div class="icon mr-5"><FaTag /></div>
@@ -31,15 +30,7 @@ const introText = "A now page. An overview of whats going on right now and what 
           <p>Improving my fitness</p>
         </li>
       </ul>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 py-5 md:py-10">
-        <div>
-          <h2 class="secondary-title">TypeScript</h2>
-          <p class="py-2">
-            Currently I'm upgrading my projects to TypeScript. JavaScript was a great starting point but the
-            advanced parts of TypeScript have really helped reduce bugs and make web applications easier to
-            build.
-          </p>
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 py-5 md:py-10">
         <div>
           <h2 class="secondary-title">Go</h2>
           <p class="py-2">
@@ -48,11 +39,11 @@ const introText = "A now page. An overview of whats going on right now and what 
           </p>
         </div>
         <div>
-          <h2 class="secondary-title">Digital Ocean</h2>
+          <h2 class="secondary-title">TypeScript</h2>
           <p class="py-2">
-            Most of my projects use Microsoft Azure for datbases & storage but I've ran into issues with
-            various modern JS/TS libraries, authentication & the SDK. I'll be moving my projects to the more
-            simple cloud provider Digital Ocean & keeping the majority of hosting on Vercel.
+            Currently I'm upgrading my projects to TypeScript. JavaScript was a great starting point but the
+            advanced parts of TypeScript have really helped reduce bugs and make web applications easier to
+            build.
           </p>
         </div>
       </div>

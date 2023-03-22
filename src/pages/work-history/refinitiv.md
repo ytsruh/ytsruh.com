@@ -4,7 +4,7 @@ order: 3
 title: Digital Localisation Manager
 company: Refinitiv
 time: Oct 18 - Sep 21
-desc: Responsible for management of 6 local langauge websites built using Adobe Experience Manager. Secondary responsibility for website perfromance channels such as SEO, Paid Search & Social.
+desc: Responsible for management of 6 local language websites built using Adobe Experience Manager. Secondary responsibility for website performance channels such as SEO, Paid Search & Social.
 logo: img/refinitiv.jpeg
 ---
 
@@ -20,7 +20,7 @@ The team had a secondary responsibility to support the wider digital team with l
 
 ## Key Projects / Achievements
 
-- Launched 7 local langaige websites over 18 months
+- Launched 7 local language websites over 18 months
 - Grew leads & revenue from zero to 157% of target
 - Lead the rollout of local language Paid Search (PPC) campaigns on regional search engines such as Baidu, Yahoo Japan, Yandex & Naver
 - Built & delivered a business case to onboard a new translation vendor with both human & machine translation capabilities with a direct API connection into Adobe Experience Manager (AEM)

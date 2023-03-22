@@ -4,7 +4,7 @@ order: 2
 title: Head of Digital - Middle East
 company: Thomson Reuters
 time: Dec 16 - Oct 18
-desc: Lead & revenue generating responsibility for the MENA region of Thomson Reuters using all available digtial channels. Digital analytics and reporting dashboard integrated into CRM and sales dashboards.
+desc: Lead & revenue generating responsibility for the MENA region of Thomson Reuters using all available digital channels. Digital analytics and reporting dashboard integrated into CRM and sales dashboards.
 logo: img/thomson-reuters.png
 ---
 
