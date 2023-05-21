@@ -8,13 +8,13 @@
     "github": "https://github.com/ytsruh/marriage-index"
   },
   {
-    "name": "Homeflix",
+    "name": "Homethings",
     "id": 2,
-    "img": "img/homeflix.png",
-    "description": "Inspired by Netflix and using Next JS & Postgres DB. The app has full authentication using JWT & encryption for security and allows a use to search & play videos held within the library.",
-    "technologies": ["Next JS", "React", "Tailwind CSS", "Vercel", "Postgres", "JWT Authentication"],
-    "link": "https://homeflix.ytsruh.com/",
-    "github": "https://github.com/ytsruh/homeflix"
+    "img": "img/homethings.png",
+    "description": "The home & personal app built using Next JS & Postgres DB. The app has full authentication using JWT & encryption for security and allows a user to store personal book lists & important documents.",
+    "technologies": ["Next JS", "React", "Tailwind CSS", "Vercel", "Postgres", "Next Auth"],
+    "link": "https://homethings.ytsruh.com/",
+    "github": "https://github.com/ytsruh/homethings"
   },
   {
     "name": "Tensorflow Predictions",
@@ -50,5 +50,21 @@
     ],
     "github": "https://github.com/ytsruh/wrongmove",
     "link": "https://wrongmove.ytsruh.com/"
+  },
+  {
+    "name": "Goly",
+    "id": 6,
+    "img": "img/goly.png",
+    "description": "A clone of bitly built using Go, the Fiber framework, Svelte & Postgres. There is full CRUD functionality through the API & feedback banner on the client. The API includes an in-memory rate limiter, monitoring endpoint, file compression & a counter for when a redirect is clicked.",
+    "technologies": ["Go", "SvelteKit", "Tailwind CSS", "Postgres", "JWT Authentication", "Fiber"],
+    "github": "https://github.com/ytsruh/goly"
+  },
+  {
+    "name": "Webiliti",
+    "id": 7,
+    "img": "img/webiliti.png",
+    "description": "The accessibility testing application. After running into multiple issues with accessibility this app is designed to manage accessibility testing. Web managers can quickly see accessibility issues via quick tests or use the API to project manage whole sites.",
+    "technologies": ["React", "ExpressJS", "Tailwind CSS", "MySQL", "JWT Auth"],
+    "link": "https://www.webiliti.com"
   }
 ]
