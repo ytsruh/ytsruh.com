@@ -2,7 +2,7 @@
   {
     "name": "St Helens Marriage Index",
     "id": 1,
-    "img": "img/marriages.png",
+    "img": "img/marriages.webp",
     "description": "An online database of marriage in the St Helens area between 1536 & 2010. Built using React and Azure technologies the site takes years of historical records and makes it easy & fast to search through them.",
     "technologies": ["React JS", "Materialize CSS", "Azure Functions", "Azure Table Storage"],
     "github": "https://github.com/ytsruh/marriage-index"
@@ -10,7 +10,7 @@
   {
     "name": "Homethings",
     "id": 2,
-    "img": "img/homethings.png",
+    "img": "img/homethings.webp",
     "description": "The home & personal app built using Next JS & Postgres DB. The app has full authentication using JWT & encryption for security and allows a user to store personal book lists & important documents.",
     "technologies": ["Next JS", "React", "Tailwind CSS", "Vercel", "Postgres", "Next Auth"],
     "link": "https://homethings.ytsruh.com/",
@@ -19,7 +19,7 @@
   {
     "name": "Tensorflow Predictions",
     "id": 3,
-    "img": "img/tensorflow.png",
+    "img": "img/tensorflow.webp",
     "description": "A short project to start learning TensorFlow JS. This project aims to predict a cars miles per gallon by taking mpg & horsepower as inputs. In this project the data was loaded, a model was created & trained before making some predictions based on more input data. All of this was visualised using tfjs-vis library.",
     "technologies": ["TensorflowJS", "Machine Learning"],
     "link": "https://ytsruh.github.io/tensorflow-predictions/",
@@ -28,7 +28,7 @@
   {
     "name": "Pokedex",
     "id": 4,
-    "img": "img/pokedex.png",
+    "img": "img/pokedex.webp",
     "description": "Built using Vanilla JavaScript, this project is a simple consumer of the Poke API. A user can filter through the original 151 Pokemon and see some very basic information on each of them. The PaperCSS library was used for styling to complete the 'minimal' effect & keep the size of the app extremely small.",
     "technologies": ["Vanilla JS", "Paper CSS", "Poke API"],
     "link": "https://ytsruh.github.io/pokedex/",
@@ -37,7 +37,7 @@
   {
     "name": "Wrongmove",
     "id": 5,
-    "img": "img/wrongmove.png",
+    "img": "img/wrongmove.webp",
     "description": "A collaboration with a friend, Wrongmove is a clone of the Rightmove website using NextJS &Vanilla CSS on the client side with an Express API and Postgres database on the server side. The app has full CRUD functionality including image upload.",
     "technologies": [
       "Next JS",
@@ -54,17 +54,26 @@
   {
     "name": "Goly",
     "id": 6,
-    "img": "img/goly.png",
+    "img": "img/goly.webp",
     "description": "A clone of bitly built using Go, the Fiber framework, Svelte & Postgres. There is full CRUD functionality through the API & feedback banner on the client. The API includes an in-memory rate limiter, monitoring endpoint, file compression & a counter for when a redirect is clicked.",
     "technologies": ["Go", "SvelteKit", "Tailwind CSS", "Postgres", "JWT Authentication", "Fiber"],
     "github": "https://github.com/ytsruh/goly"
   },
   {
-    "name": "Webiliti",
+    "name": "Search Engine",
     "id": 7,
-    "img": "img/webiliti.png",
-    "description": "The accessibility testing application. After running into multiple issues with accessibility this app is designed to manage accessibility testing. Web managers can quickly see accessibility issues via quick tests or use the API to project manage whole sites.",
-    "technologies": ["React", "ExpressJS", "Tailwind CSS", "MySQL", "JWT Auth"],
-    "link": "https://www.webiliti.com"
+    "img": "img/search-engine.webp",
+    "description": "A self built web crawler and search engine built using Go & Svelte. This app is a fully functioning search engine, crawling over 1000 pages per day & indexing over 100 per day to be available to search. The app also has a public statistics page to view progress & an autenticated admin section to control the crawling behaviour.",
+    "technologies": [
+      "Go",
+      "SvelteKit",
+      "Tailwind CSS",
+      "Skeleton UI",
+      "Postgres",
+      "JWT Authentication",
+      "Fiber"
+    ],
+    "github": "https://github.com/ytsruh/search-engine",
+    "link": "https://search.ytsruh.com/"
   }
 ]

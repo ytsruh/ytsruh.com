@@ -5,7 +5,7 @@ title: Account Manager - Middle East
 company: Latitude Digital Marketing
 time: Jun 12 - Dec 15
 desc: Responsible for account management for a selection of key strategic accounts in the region across Travel, Ecommerce & Financial sectors. Advising clients on all Paid & Organic Digital channels to increase business & website performance.
-logo: img/latitude.png
+logo: img/latitude.webp
 ---
 
 # Overview

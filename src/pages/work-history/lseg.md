@@ -5,7 +5,7 @@ title: Digital Enablement Manager
 company: London Stock Exchange
 time: Sep 21 - Current
 desc: Acting as product owner for all marketing websites in the group. Working with multiple development teams to support, maintain & enhance the Adobe & Drupal platforms.
-logo: img/lseg.svg
+logo: img/lseg.webp
 ---
 
 # Overview

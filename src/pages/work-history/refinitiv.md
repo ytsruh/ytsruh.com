@@ -5,7 +5,7 @@ title: Digital Localisation Manager
 company: Refinitiv
 time: Oct 18 - Sep 21
 desc: Responsible for management of 6 local language websites built using Adobe Experience Manager. Secondary responsibility for website performance channels such as SEO, Paid Search & Social.
-logo: img/refinitiv.jpeg
+logo: img/refinitiv.webp
 ---
 
 # Overview

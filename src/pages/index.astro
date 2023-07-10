@@ -4,7 +4,6 @@ import ContactIcons from "@lib/ContactIcons.svelte";
 import HomeSideNav from "@lib/HomeSideNav.svelte";
 import Project from "@lib/Project.svelte";
 import projects from "../lib/projects.json";
-const heroProjects = projects.slice(0, 3);
 ---
 
 <MainLayout
@@ -18,9 +17,9 @@ const heroProjects = projects.slice(0, 3);
       <div class="flex flex-row items-center">
         <div class="basis-full lg:basis-1/2">
           <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Chris Hurst</h1>
-          <h3 class="font-bold text-3xl md:text-4xl lg:text-5xl text-center md:text-left">
+          <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl text-center md:text-left">
             Digital Marketer & TypeScript / Go Developer
-          </h3>
+          </h2>
           <div class="w-full flex justify-center md:justify-start">
             <a
               href="#projects"
@@ -48,7 +47,7 @@ const heroProjects = projects.slice(0, 3);
         </div>
 
         <div class="hidden lg:block lg:basis-1/2">
-          <img src="img/computer.jpg" alt="Computer screen" class="mt-12 right-0 -z-1" />
+          <img src="img/computer.webp" alt="Computer screen" class="mt-12 right-0 -z-1" />
         </div>
       </div>
     </div>
@@ -63,7 +62,9 @@ const heroProjects = projects.slice(0, 3);
         show new technologies that have been used or where a project is deployed.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-        {heroProjects.map((project) => <Project data={project} client:load />)}
+        <Project data={projects[0]} client:load />
+        <Project data={projects[1]} client:load />
+        <Project data={projects[6]} client:load />
       </div>
     </section>
   </div>
