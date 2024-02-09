@@ -4,8 +4,8 @@ Personal portfolio with links to Work History & Projects
 
 ### Built using
 
-- TailwindCSS
 - Astro
+- TailwindCSS
 - Markdown
 - Svelte
 - Svelte Icons

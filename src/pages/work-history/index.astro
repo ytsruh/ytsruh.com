@@ -4,7 +4,7 @@ import PageTitle from "@lib/PageTitle.svelte";
 import WorkItem from "@lib/WorkItem.svelte";
 // Import markdown files with Astro.glob & sort by order
 const jobs = await Astro.glob("./*.md");
-function compare(a, b) {
+function compare(a:any, b:any) {
   const first = parseInt(a.frontmatter.order);
   const second = parseInt(b.frontmatter.order);
   if (first > second) {
