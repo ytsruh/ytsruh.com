@@ -3,8 +3,8 @@
     "name": "Homethings",
     "id": 1,
     "img": "../img/homethings.webp",
-    "description": "The home & personal playground built using Go, Next JS & Postgres DB. The app features a number of toy projects including a custom built search engine, personal to do app, document storage as well as others. A companion mobile is available built using React Native.",
-    "technologies": ["Go / Golang", "Echo", "Next JS", "React", "Tailwind CSS", "Vercel", "Postgres"],
+    "description": "The home & personal playground built using TypeScript, Next JS & Postgres. The app features a number of toy projects including a personal to do app, document storage as well as others. A companion mobile is available built using React Native.",
+    "technologies": ["TypeScript", "Next JS", "React", "Tailwind CSS", "Vercel", "Postgres"],
     "link": "https://homethings.ytsruh.com/",
     "github": "https://github.com/ytsruh/homethings"
   },
@@ -20,8 +20,8 @@
     "name": "Finly & Umda",
     "id": 3,
     "img": "https://placehold.co/600x400?text=Coming+Soon",
-    "description": "Finly is a personal finance app built using Go, Echo & Postgres. The app is designed to help users track their spending and money habits. Umda is a companion API that holds relevant market data for the app.",
-    "technologies": ["Go / Golang", "Echo", "React", "Tailwind CSS", "Railway", "Postgres"],
+    "description": "Finly is a personal finance app built using Go, Fiber & Postgres. The app is designed to help users track their spending and money habits. Umda is a companion API that holds relevant market data for the app.",
+    "technologies": ["Go / Golang", "Fiber", "React", "Tailwind CSS", "Railway", "Postgres"],
     "link": "https://www.finly.cc"
   }
 ]
