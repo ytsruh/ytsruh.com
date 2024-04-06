@@ -18,7 +18,7 @@
       <a href="/" class={page === "/" ? "text-theme" : ""}>Home</a>
       <a href="/projects" class={page.includes("/projects") ? "text-theme" : ""}>Projects</a>
       <a href="/work-history" class={page.includes("/work-history") ? "text-theme" : ""}>Work History</a>
-      <a href="https://ytsruh.hashnode.dev/">Blog</a>
+      <a href="https://www.youtube.com/channel/UCX1Oo4M36jbSrnC9Ui_D2CA">YouTube</a>
       <a href="/now" class={page.includes("/now") ? "text-theme" : ""}>Now</a>
       <a href="/contact"><button class="px-6 py-2 bg-theme font-bold">Contact me</button></a>
     </div>

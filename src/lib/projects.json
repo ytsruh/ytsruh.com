@@ -3,8 +3,17 @@
     "name": "Homethings",
     "id": 1,
     "img": "../img/homethings.webp",
-    "description": "The home & personal playground built using TypeScript, Next JS & Postgres. The app features a number of toy projects including a personal to do app, document storage as well as others. A companion mobile is available built using React Native.",
-    "technologies": ["TypeScript", "Next JS", "React", "Tailwind CSS", "Vercel", "Postgres"],
+    "description": "The home & personal playground built using TypeScript, Next JS & Postgres. The app features a number of toy projects including a personal to do app, document storage, a personalised AI Chatbot as well as others.",
+    "technologies": [
+      "TypeScript",
+      "Next JS",
+      "React",
+      "Next Auth",
+      "Tailwind CSS",
+      "Vercel",
+      "Drizzle",
+      "Postgres"
+    ],
     "link": "https://homethings.ytsruh.com/",
     "github": "https://github.com/ytsruh/homethings"
   },
@@ -12,8 +21,8 @@
     "name": "Webiliti",
     "id": 2,
     "img": "../img/webiliti.png",
-    "description": "The web testing app built using SvelteKit & Hono. The SvelteKit app has the majority of the functionality with a few serverless api routes to handle communication with a seperate Hono app. The app runs a number of tests on a given page to allow a user to track web performance over time.",
-    "technologies": ["Svelte", "SvelteKit", "Tailwind CSS", "HonoJS", "Railway", "Postgres", "Auth JS"],
+    "description": "The web testing app built using Go & JavaScript. The Go app has the majority of the functionality with a few JavaScript serverless api routes to handle a few specific browser based tasks. The app runs a number of tests on a given page to allow a user to track web performance over time.",
+    "technologies": ["Go / Golang", "Fiber", "Tailwind CSS", "HonoJS", "Railway", "Postgres"],
     "link": "https://www.webiliti.com/"
   },
   {
