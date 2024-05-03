@@ -22,7 +22,7 @@
     "id": 2,
     "img": "../img/webiliti.png",
     "description": "The web testing app built using Go & JavaScript. The Go app has the majority of the functionality with a few JavaScript serverless api routes to handle a few specific browser based tasks. The app runs a number of tests on a given page to allow a user to track web performance over time.",
-    "technologies": ["Go / Golang", "Fiber", "Tailwind CSS", "HonoJS", "Railway", "Postgres"],
+    "technologies": ["Go / Golang", "Fiber", "Tailwind CSS", "HonoJS", "Koyeb", "Postgres"],
     "link": "https://www.webiliti.com/"
   },
   {
@@ -30,7 +30,7 @@
     "id": 3,
     "img": "https://placehold.co/600x400?text=Coming+Soon",
     "description": "Finly is a personal finance app built using Go, Fiber & Postgres. The app is designed to help users track their spending and money habits. Umda is a companion API that holds relevant market data for the app.",
-    "technologies": ["Go / Golang", "Fiber", "React", "Tailwind CSS", "Railway", "Postgres"],
+    "technologies": ["Go / Golang", "Fiber", "React", "Tailwind CSS", "Koyeb", "Postgres"],
     "link": "https://www.finly.cc"
   }
 ]
