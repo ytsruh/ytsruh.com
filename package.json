@@ -1,13 +1,13 @@
 {
   "name": "ytsruh",
   "type": "module",
-  "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
+    "dev-functions": "wrangler pages dev --live-reload=true dist",
     "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview:astro": "astro preview",
+    "preview": "wrangler pages dev --live-reload=true dist",
+    "deploy": "npm run build && wrangler pages deploy dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
@@ -15,10 +15,16 @@
     "@astrojs/sitemap": "^3.1.5",
     "@astrojs/svelte": "^5.4.0",
     "@astrojs/tailwind": "^5.1.0",
+    "@hono/zod-validator": "^0.2.1",
     "astro": "^4.9.1",
+    "hono": "^4.3.11",
     "svelte": "^4.2.17",
     "svelte-icons": "^2.1.0",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "wrangler": "^3.57.1"
   }
 }
