@@ -3,4 +3,7 @@ node_modules
 /dist
 /package
 .env
+.dev.vars
 .astro
+.wrangler
+.vscode

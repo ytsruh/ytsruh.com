@@ -2,8 +2,7 @@
 
 Personal portfolio with links to Work History & Projects
 
-### Built using
-
+Built using:
 - Astro
 - TailwindCSS
 - Markdown
