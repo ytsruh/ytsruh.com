@@ -7,3 +7,4 @@ node_modules
 .astro
 .wrangler
 .vscode
+.package-lock.json
