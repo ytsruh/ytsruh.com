@@ -3,8 +3,6 @@ node_modules
 /dist
 /package
 .env
-.dev.vars
-.astro
-.wrangler
 .vscode
 .package-lock.json
+_archive
