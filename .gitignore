@@ -4,5 +4,5 @@ node_modules
 /package
 .env
 .vscode
-.package-lock.json
+package-lock.json
 _archive
