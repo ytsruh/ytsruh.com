@@ -9,3 +9,4 @@ Built using:
 - Markdown
 - TailwindCSS
 - Svelte Icons
+- Blog added using JoyOfCode (https://joyofcode.xyz/sveltekit-markdown-blog)
