@@ -8,5 +8,4 @@ Built using:
 - SvelteKit
 - Markdown
 - TailwindCSS
-- Svelte Icons
-- Blog added using JoyOfCode (https://joyofcode.xyz/sveltekit-markdown-blog)
+- Lucide Icons
