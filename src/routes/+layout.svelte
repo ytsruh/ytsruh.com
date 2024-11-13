@@ -8,7 +8,7 @@
 
 <div class="min-h-screen bg-body font-raleway text-white">
 	<Header />
-	<main>
+	<main class="container mx-auto mt-14 min-h-screen px-8 md:px-14 lg:mt-24 lg:px-24">
 		{@render children?.()}
 	</main>
 	<Footer />

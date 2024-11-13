@@ -11,13 +11,13 @@
 		<a href="/" class="text-lg font-bold">ytsruh.com</a>
 		<div class="hidden items-center space-x-6 md:flex xl:space-x-12">
 			<a href="/" class={$page.route.id === '/' ? 'text-theme' : ''}>Home</a>
-			<a href="/projects" class={$page.route.id!.includes('/projects') ? 'text-theme' : ''}>
+			<a href="/projects" class={$page.route.id?.includes('/projects') ? 'text-theme' : ''}>
 				Projects
 			</a>
 			<a href="/work-history" class={$page.route.id === '/work-history' ? 'text-theme' : ''}>
 				Work History
 			</a>
-			<a href="/blog" class={$page.route.id!.includes('/blog') ? 'text-theme' : ''}>Blog</a>
+			<a href="/blog" class={$page.route.id?.includes('/blog') ? 'text-theme' : ''}>Blog</a>
 			<a href="/now" class={$page.route.id === '/now' ? 'text-theme' : ''}>Now</a>
 			<a href="/contact"><button class="bg-theme px-6 py-2 font-bold">Contact me</button></a>
 		</div>
@@ -43,7 +43,7 @@
 					<a href="/" class={$page.route.id === '/' ? 'text-theme' : ''}>Home</a>
 				</li>
 				<li class="my-2 text-lg">
-					<a href="/projects" class={$page.route.id!.includes('/projects') ? 'text-theme' : ''}>
+					<a href="/projects" class={$page.route.id?.includes('/projects') ? 'text-theme' : ''}>
 						Projects
 					</a>
 				</li>
@@ -55,7 +55,7 @@
 				<li class="my-2 text-lg">
 					<a
 						href="https://ytsruh.hashnode.dev/"
-						class={$page.route.id!.includes('/blog') ? 'text-theme' : ''}
+						class={$page.route.id?.includes('/blog') ? 'text-theme' : ''}
 					>
 						Blog
 					</a>

@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<title>Blog Home</title>
+	<meta name="description" content="" />
 </svelte:head>
 
 <section>
