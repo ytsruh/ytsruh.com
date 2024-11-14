@@ -35,7 +35,8 @@
 	</ul>
 	<div class="grid grid-cols-1 gap-5 py-5 md:grid-cols-2 md:py-10 lg:grid-cols-3">
 		<div>
-			<h2 class="secondary-title">Go</h2>
+			<span class="mb-1 block h-2 w-12 bg-theme"></span>
+			<h2 class="text-3xl font-bold">Go</h2>
 			<p class="py-2">
 				My main goal in 2024 is to continue learning Go. I've been keen to learn a faster language
 				than JavaScript in order to deal with data more effeciently and Go provides speed &
@@ -43,7 +44,8 @@
 			</p>
 		</div>
 		<div>
-			<h2 class="secondary-title">TypeScript</h2>
+			<span class="mb-1 block h-2 w-12 bg-theme"></span>
+			<h2 class="text-3xl font-bold">TypeScript</h2>
 			<p class="py-2">
 				Currently upgrading all projects to TypeScript. JavaScript is a great starting point but the
 				advanced parts of TypeScript have really helped reduce bugs and make web applications easier
@@ -51,7 +53,8 @@
 			</p>
 		</div>
 		<div>
-			<h2 class="secondary-title">Webiliti</h2>
+			<span class="mb-1 block h-2 w-12 bg-theme"></span>
+			<h2 class="text-3xl font-bold">Webiliti</h2>
 			<p class="py-2">
 				After running into various challenges working at LSEG I was inspired to build Webiliti. The
 				web management & testing application that is designed to help web managers stay on top of
