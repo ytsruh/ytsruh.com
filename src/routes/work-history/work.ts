@@ -1,6 +1,6 @@
 import type { Job } from '@lib/types';
 import latitude from '@lib/img/latitude.webp';
-import thomonsreuters from '@lib/img/thomson-reuters.webp';
+import thomsonreuters from '@lib/img/thomson-reuters.webp';
 import refinitiv from '@lib/img/refinitiv.webp';
 import lseg from '@lib/img/lseg.webp';
 
@@ -23,7 +23,7 @@ export const work: Job[] = [
 	},
 	{
 		name: 'Thomson Reuters',
-		logo: thomonsreuters,
+		logo: thomsonreuters,
 		jobTitle: 'Head of Digital - Middle East',
 		date: 'Dec 16 - Oct 18',
 		description:

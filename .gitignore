@@ -8,3 +8,4 @@ package-lock.json
 _archive
 .svelte-kit
 build
+test-results

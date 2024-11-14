@@ -8,7 +8,7 @@ export const projects: Project[] = [
 		id: 1,
 		img: homethings,
 		description:
-			'The home & personal playground built using TypeScript, Svelte, SvelteKit & SQLite. The app features a number of toy projects including a personal note taking app, document storage, a personalised AI Chatbot as well as others.',
+			'The home & personal playground built using TypeScript, Svelte, SvelteKit & SQLite. The app features a number of hobby projects including a personal note taking app, document storage, a personalised AI Chatbot as well as others.',
 		technologies: [
 			'TypeScript',
 			'Svelte',
@@ -32,7 +32,7 @@ export const projects: Project[] = [
 		id: 2,
 		img: webiliti,
 		description:
-			'The web testing app built using TypeScript & React. The Hono app has the majority of the functionality The Hono app has the majority of the functionality api routes to handle a few specific browser based tasks and the main app crud functionality including auth. The app runs a number of browser based tests on a given page to allow a user to track web performance over time.',
+			'The web testing app built using TypeScript & React. The Hono app has the majority of the functionality The Hono app has the majority of the functionality, there are api routes to handle a few specific browser based tasks and the main app CRYD functionality including auth. The app runs a number of browser based tests on a given page to allow a user to track web performance over time.',
 		technologies: [
 			'Typescript',
 			'React',
