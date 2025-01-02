@@ -26,39 +26,37 @@
 		</li>
 		<li class="flex items-center">
 			<div class="icon mr-5"><Icon.Tag size="36" /></div>
-			<p>Improving my TypeScript & Go skills</p>
+			<p>Improving my fitness</p>
 		</li>
 		<li class="flex items-center">
 			<div class="icon mr-5"><Icon.Tag size="36" /></div>
-			<p>Improving my fitness</p>
+			<p>Improving my Go skills</p>
 		</li>
 	</ul>
 	<div class="grid grid-cols-1 gap-5 py-5 md:grid-cols-2 md:py-10 lg:grid-cols-3">
 		<div>
 			<span class="mb-1 block h-2 w-12 bg-theme"></span>
-			<h2 class="text-3xl font-bold">Go</h2>
+			<h2 class="text-3xl font-bold">Project</h2>
 			<p class="py-2">
-				My main goal in 2024 is to continue learning Go. I've been keen to learn a faster language
-				than JavaScript in order to deal with data more effeciently and Go provides speed &
-				simplicty.
+				My main goal in 2025 is to build out finly into a viable & usable project. Personal & market
+				finances are a hobby of mine and I want to build something that can help others. I'm also
+				using it as an opportunity to build my Go skills.
 			</p>
 		</div>
 		<div>
 			<span class="mb-1 block h-2 w-12 bg-theme"></span>
 			<h2 class="text-3xl font-bold">TypeScript</h2>
 			<p class="py-2">
-				Currently upgrading all projects to TypeScript. JavaScript is a great starting point but the
-				advanced parts of TypeScript have really helped reduce bugs and make web applications easier
-				to build.
+				After falling out of love with React, NextJS and the JavaScript ecosystem in 2024, I've been
+				using Svelte wherever I've felt JS/TS is needed / the best tool.
 			</p>
 		</div>
 		<div>
 			<span class="mb-1 block h-2 w-12 bg-theme"></span>
-			<h2 class="text-3xl font-bold">Webiliti</h2>
+			<h2 class="text-3xl font-bold">Fitness</h2>
 			<p class="py-2">
-				After running into various challenges working at LSEG I was inspired to build Webiliti. The
-				web management & testing application that is designed to help web managers stay on top of
-				their websites.
+				My fitness goal this year is to run a 10k in under 60 minutes. Despite doing numerous 5k's
+				and beeating 30 mins in 2024, I was not able to beat 60 mins.
 			</p>
 		</div>
 	</div>

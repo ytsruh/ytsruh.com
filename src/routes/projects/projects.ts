@@ -1,6 +1,7 @@
 import type { Project } from '@lib/types';
 import homethings from '@lib/img/homethings.webp';
 import webiliti from '@lib/img/webiliti.png';
+import finly from '@lib/img/finly.png';
 
 export const projects: Project[] = [
 	{
@@ -51,9 +52,9 @@ export const projects: Project[] = [
 	{
 		name: 'Finly',
 		id: 3,
-		img: 'https://placehold.co/600x400?text=Coming+Soon',
+		img: finly,
 		description:
-			'Finly is a market data app built using Go, Echo & Postgres. The app is an API that holds relevant market data from over 25+ sources and aggregates it into a single scalable format. HTMX is used to create a small loggedin section to allow users to manage API keys.',
+			'Finly is a market data app built using Go, Echo & SQLite. The app is an API that holds relevant market data from over 25+ sources and aggregates it into a single scalable format. HTMX is used to create a small logged in section to allow users to manage API keys.',
 		technologies: ['Go / Golang', 'Echo', 'HTMX', 'Tailwind CSS', 'Koyeb', 'SQLite'],
 		link: {
 			url: 'https://www.finly.cc',
