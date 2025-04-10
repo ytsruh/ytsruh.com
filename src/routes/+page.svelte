@@ -15,12 +15,9 @@
 	/>
 </svelte:head>
 
-<section class="w-full">
+<section class="flex w-full flex-col gap-y-5">
 	<!-- HERO SECTION-->
-	<div
-		id="hero"
-		class="container mx-auto mt-16 flex w-full items-center justify-between px-8 md:px-14 lg:px-24"
-	>
+	<div id="hero" class="container mx-auto flex w-full items-center justify-between">
 		<div class="flex flex-wrap md:flex-nowrap">
 			<div class="flex flex-row items-center">
 				<div class="basis-full lg:basis-1/2">
@@ -66,9 +63,7 @@
 	</div>
 	<!-- END HERO SECTION-->
 	<!-- MY PROJECTS SECTION -->
-	<div
-		class="container mx-auto mt-32 flex w-full items-center justify-between px-8 md:px-14 lg:px-24"
-	>
+	<div class="container mx-auto flex w-full items-center justify-between">
 		<section class="w-full">
 			<span class="mb-1 block h-2 w-12 bg-theme"></span>
 			<h2 id="projects" class="text-3xl font-bold">Projects</h2>
@@ -92,9 +87,7 @@
 	</div>
 	<!-- END PROJECTS SECTION -->
 	<!-- WORK SECTION -->
-	<div
-		class="container mx-auto mt-32 flex w-full items-center justify-between px-8 md:px-14 lg:px-24"
-	>
+	<div class="container mx-auto flex w-full items-center justify-between">
 		<section class="w-full">
 			<span class="mb-1 block h-2 w-12 bg-theme"></span>
 			<h2 id="work" class="text-3xl font-bold">Work History</h2>
@@ -168,9 +161,7 @@
 	</div>
 	<!-- END WORK SECTION -->
 	<!-- CONTACT ME SECTION -->
-	<div
-		class="container mx-auto mt-32 flex w-full items-center justify-between px-8 md:px-14 lg:px-24"
-	>
+	<div class="container mx-auto flex w-full items-center justify-between">
 		<section class="w-full">
 			<span class="mb-1 block h-2 w-12 bg-theme"></span>
 			<h2 id="contact" class="text-3xl font-bold">Contact me</h2>
