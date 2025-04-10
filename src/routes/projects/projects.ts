@@ -9,16 +9,8 @@ export const projects: Project[] = [
 		id: 1,
 		img: homethings,
 		description:
-			'The home & personal playground built using TypeScript, Svelte, SvelteKit & SQLite. The app features a number of hobby projects including a personal note taking app, document storage, a personalised AI Chatbot as well as others.',
-		technologies: [
-			'TypeScript',
-			'Svelte',
-			'SvelteKit',
-			'Tailwind CSS',
-			'Cloudflare',
-			'Drizzle',
-			'SQLite'
-		],
+			'The home & personal playground built using Pocketbase, Go & React. The app features a number of hobby projects including a personal note taking app, document storage, a personalised AI Chatbot as well as others. A CLI application is also included that extends some of the server functionality into the command line.',
+		technologies: ['Go', 'SQLite', 'React', 'Tailwind CSS', 'Pocketbase', 'Charm'],
 		link: {
 			url: 'https://homethings.ytsruh.com/',
 			text: 'Visit'
