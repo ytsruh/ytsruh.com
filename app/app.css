@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-raleway: "'Raleway'", sans-serif;
+
+  --color-body: #000000;
+  --color-theme: #00c389;
+  --color-nav: #404053;
+  --color-secondary: #9191A4;
+  --color-badge: #3F3F51;
+  --color-input-border: #565666;
+  --color-input: #2A2A35;
+}
+
+html,
+body {
+  @apply bg-body font-raleway text-white;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
