@@ -1,17 +1,19 @@
-import type { Route } from "./+types/blog-single";
+import { useParams } from "react-router";
+import PageTitle from "~/components/PageTitle";
+import { getPostData } from "~/lib/posts";
+import { formatDate } from "~/lib/utils";
 
-export function meta({}: Route.MetaArgs) {
-  return [{ title: "New React Router App" }, { name: "description", content: "Welcome to React Router!" }];
-}
+export default async function BlogSingle() {
+  const { slug } = useParams();
+  const postData = await getPostData(slug as string);
 
-export async function loader({ params }: Route.LoaderArgs) {
-  return { slug: params.slug };
-}
-
-export default function BlogSingle({ loaderData }: Route.ComponentProps) {
   return (
-    <>
-      Single Blog Page <p>{loaderData.slug}</p>
-    </>
+    <section>
+      <PageTitle title={postData.title} description={postData.description} />
+      <p className="py-5 text-sm text-secondary">Published: {formatDate(postData.date)}</p>
+      <article className="prose prose-invert max-w-none">
+        <div dangerouslySetInnerHTML={{ __html: postData.content }} />
+      </article>
+    </section>
   );
 }
