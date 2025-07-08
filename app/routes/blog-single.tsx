@@ -1,18 +1,27 @@
-import { useParams } from "react-router";
+import type { Route } from "./+types/blog-single";
 import PageTitle from "~/components/PageTitle";
 import { getPostData } from "~/lib/posts";
 import { formatDate } from "~/lib/utils";
 
-export default async function BlogSingle() {
-  const { slug } = useParams();
-  const postData = await getPostData(slug as string);
+export function meta() {
+  return [
+    { title: "Blog | ytsruh.com" },
+    { name: "description", content: "A collection of thoughts, ideas & experiences." },
+  ];
+}
 
+export async function loader({ params }: Route.LoaderArgs) {
+  const postData = await getPostData(params.slug);
+  return postData;
+}
+
+export default function BlogSingle({ loaderData }: Route.ComponentProps) {
   return (
     <section>
-      <PageTitle title={postData.title} description={postData.description} />
-      <p className="py-5 text-sm text-secondary">Published: {formatDate(postData.date)}</p>
+      <PageTitle title={loaderData.title} description={loaderData.description} />
+      <p className="py-5 text-sm text-secondary">Published: {formatDate(loaderData.date)}</p>
       <article className="prose prose-invert max-w-none">
-        <div dangerouslySetInnerHTML={{ __html: postData.content }} />
+        <div dangerouslySetInnerHTML={{ __html: loaderData.content }} />
       </article>
     </section>
   );
