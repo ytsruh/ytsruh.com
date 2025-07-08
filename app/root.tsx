@@ -2,6 +2,7 @@ import type { Route } from "./+types/root";
 import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import PageTitle from "./components/PageTitle";
 import stylesheet from "./app.css?url";
 
 export const links: Route.LinksFunction = () => [
@@ -56,14 +57,32 @@ export default function App() {
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";
   let details = "An unexpected error occurred.";
+  let statusCode: number | undefined;
   let stack: string | undefined;
 
   if (isRouteErrorResponse(error)) {
+    statusCode = error.status;
     message = error.status === 404 ? "404" : "Error";
     details = error.status === 404 ? "The requested page could not be found." : error.statusText || details;
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message;
     stack = error.stack;
+  }
+
+  if (statusCode === 404) {
+    return (
+      <main className="pt-16 p-4 container mx-auto">
+        <section className="w-full">
+          <div>
+            <PageTitle
+              title="404: Page Not Found"
+              description="We can't find this page. Please return to the homepage & try again"
+            />
+            <img src="/img/400.webp" alt="404 Page Not Found" />
+          </div>
+        </section>
+      </main>
+    );
   }
 
   return (
