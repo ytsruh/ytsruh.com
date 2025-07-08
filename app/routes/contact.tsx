@@ -1,9 +1,14 @@
-import type { Route } from "./+types/contact";
-
-export function meta({}: Route.MetaArgs) {
-  return [{ title: "New React Router App" }, { name: "description", content: "Welcome to React Router!" }];
-}
+import ContactIcons from "~/components/ContactIcons";
+import PageTitle from "~/components/PageTitle";
 
 export default function Contact() {
-  return "Contact Page!";
+  return (
+    <section className="w-full">
+      <PageTitle
+        title="Contact"
+        description="Feel free to to contact me through any of the below methods."
+      />
+      <ContactIcons />
+    </section>
+  );
 }
