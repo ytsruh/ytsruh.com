@@ -1,5 +1,16 @@
+import type { Route } from "./+types/work-history";
 import PageTitle from "~/components/PageTitle";
 import { work } from "./work-history";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    {
+      title: "Chris Hurst | Work History",
+      description:
+        "A list of roles & companies I've worked for including short descriptions of each role.",
+    },
+  ];
+}
 
 export default function WorkHistory() {
   return (
@@ -20,8 +31,12 @@ export default function WorkHistory() {
             <div className="flex flex-wrap justify-center text-center md:basis-2/3 lg:block lg:text-left">
               <h3 className="text-3xl font-semibold text-white">{job.name}</h3>
               <div className="mb-8 mt-6 flex w-full flex-wrap justify-center gap-3 lg:w-auto lg:justify-start">
-                <div className="rounded bg-badge px-4 py-2 text-sm">{job.date}</div>
-                <div className="rounded bg-badge px-4 py-2 text-sm">{job.jobTitle}</div>
+                <div className="rounded bg-badge px-4 py-2 text-sm">
+                  {job.date}
+                </div>
+                <div className="rounded bg-badge px-4 py-2 text-sm">
+                  {job.jobTitle}
+                </div>
               </div>
               <p className="text-secondary">{job.description}</p>
             </div>

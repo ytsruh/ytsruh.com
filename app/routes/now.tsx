@@ -1,5 +1,16 @@
+import type { Route } from "./+types/now";
 import PageTitle from "~/components/PageTitle";
 import { Tag } from "lucide-react";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    {
+      title: "Chris Hurst | Now Page",
+      description:
+        "A page that shows what I'm currently working on and what my plans are for the year.",
+    },
+  ];
+}
 
 export default function Now() {
   return (
@@ -14,8 +25,15 @@ export default function Now() {
             <Tag size="36" />
           </div>
           <p>
-            Working at <a href="http://www.lseg.com" className="text-theme/75" target="_blank">LSEG</a> in the
-            digital team
+            Working at{" "}
+            <a
+              href="http://www.lseg.com"
+              className="text-theme/75"
+              target="_blank"
+            >
+              LSEG
+            </a>{" "}
+            in the digital team
           </p>
         </li>
         <li className="flex items-center">
@@ -36,31 +54,36 @@ export default function Now() {
           <span className="mb-1 block h-2 w-12 bg-theme"></span>
           <h2 className="text-3xl font-bold">Project</h2>
           <p className="py-2">
-            My main goal in 2025 is to build out finly into a viable & usable project. Personal & market
-            finances are a hobby of mine and I want to build something that can help others. I'm also
-            using it as an opportunity to build my Go skills.
+            My main goal in 2025 is to build out Webiliti into a viable & usable
+            project. I'm also using it as an opportunity to build my TS skills
+            and to solve some interesting problems in the Digital world.
           </p>
         </div>
         <div>
           <span className="mb-1 block h-2 w-12 bg-theme"></span>
-          <h2 className="text-3xl font-bold">TypeScript</h2>
+          <h2 className="text-3xl font-bold">Go</h2>
           <p className="py-2">
-            After falling out of love with React, NextJS and the JavaScript ecosystem in 2024, I've been
-            using Svelte wherever I've felt JS/TS is needed / the best tool.
+            Building my skills in Go by building a number of small systems type
+            projects such as a SSH server, a database & a number of CLI's /
+            TUI's.
           </p>
         </div>
         <div>
           <span className="mb-1 block h-2 w-12 bg-theme"></span>
           <h2 className="text-3xl font-bold">Fitness</h2>
           <p className="py-2">
-            My fitness goal this year is to run a 10k in under 60 minutes. Despite doing numerous 5k's
-            and beeating 30 mins in 2024, I was not able to beat 60 mins.
+            My fitness goal this year is to run a 10k in under 60 minutes.
+            Despite doing numerous 5k's and beeating 30 mins in 2024, I was not
+            able to beat 60 mins.
           </p>
         </div>
       </div>
       <p className="py-10 text-lg">
-        What is a now page? Click <a className="text-secondary" href="https://nownownow.com/about">here</a> to
-        find out.
+        What is a now page? Click{" "}
+        <a className="text-secondary" href="https://nownownow.com/about">
+          here
+        </a>{" "}
+        to find out.
       </p>
     </section>
   );
